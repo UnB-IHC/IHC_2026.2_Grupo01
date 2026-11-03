@@ -1,4 +1,4 @@
-# VerificaAAA
+# Grupo 01
 
 ## Descrição
 
@@ -8,11 +8,12 @@ O VerificaAAA é um projeto criado a partir do curso de Interação Humano Compu
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/vitorfleonardo"><img style="border-radius: 50%;" src="https://github.com/vitorfleonardo.png" width="100px;" alt=""/><br /><sub><b>Vitor Feijó</b></sub></a><br />
-    <td align="center"><a href="https://github.com/CADU110"><img style="border-radius: 50%;" src="https://github.com/CADU110.png" width="100px;" alt=""/><br /><sub><b>Carlos Eduardo</b></sub></a><br />   
-    <td align="center"><a href="https://github.com/Angelicahaas"><img style="border-radius: 50%;" src="https://github.com/Angelicahaas.png" width="100px;" alt=""/><br /><sub><b>Harleny Angéllica</b></sub></a><br />   
-    <td align="center"><a href="https://github.com/Erick-ems "><img style="border-radius: 50%;" src="https://github.com/Erick-ems.png" width="100px;" alt=""/><br /><sub><b>Erick Santos</b></sub></a><br />
-    <td align="center"><a href="https://github.com/maykonjuso "><img style="border-radius: 50%;" src="https://github.com/maykonjuso.png" width="100px;" alt=""/><br /><sub><b>Maykon Júnio</b></sub></a><br />
+    <td align="center"><a href="https://github.com/edso-n"><img style="border-radius: 50%;" src="https://github.com/edso-n.png" width="100px;" alt=""/><br /><sub><b>Edson Pereira</b></sub></a><br />
+    <td align="center"><a href="https://github.com/arturalvesfn"><img style="border-radius: 50%;" src="https://github.com/arturalvesfn.png" width="100px;" alt=""/><br /><sub><b>Artur Alves</b></sub></a><br />   
+    <td align="center"><a href="https://github.com/auslogyc"><img style="border-radius: 50%;" src="https://github.com/auslogyc.png" width="100px;" alt=""/><br /><sub><b>Danilo Barros</b></sub></a><br />   
+    <td align="center"><a href="https://github.com/laurarogelin"><img style="border-radius: 50%;" src="https://github.com/laurarogelin.png" width="100px;" alt=""/><br /><sub><b>Laura Rogelin</b></sub></a><br />
+    <td align="center"><a href="https://github.com/prietum"><img style="border-radius: 50%;" src="https://github.com/prietum.png" width="100px;" alt=""/><br /><sub><b>Pietro Ritchele</b></sub></a><br />
+    <td align="center"><a href="https://github.com/RobdobFilho"><img style="border-radius: 50%;" src="https://github.com/RobdobFilho.png" width="100px;" alt=""/><br /><sub><b>Roberto Filho</b></sub></a><br />
   </tr>
 </table>
 
