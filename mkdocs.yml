@@ -1,41 +1,71 @@
-repo_url: https://github.com/UnB-IHC/IHC_2026.2_Grupo01
-repo_name: IHC_2026.2_Grupo01
-
-site_url: https://github.com/UnB-IHC/IHC_2026.2_Grupo01
-site_name: Grupo 1
-
-use_directory_urls: False
+site_name: Documentação Guia de Acessiblidade Digital
 
 nav:
-  - Início - VerificAAA: 'index.md'
-
-  - Desenvolvimento Web:
-    - Desenvolvimento: 'devWeb/non_text_content.md'
-
-  - Design:
-    - Design: 'design/design.md'
+  - Página Inicial: index.md
+  - Guia de Acessiblidade:
+      - Sobre: guia_acessibilidade/sobre.md
+      - Gestão de Projetos: guia_acessibilidade/guia_gestao.md
+      - Desenvolvimento: guia_acessibilidade/guia_desenvolvimento.md
+      - Design: guia_acessibilidade/guia_design.md
+      - Conteúdo: guia_acessibilidade/guia_conteudo.md
+      - Resultado Final: resultado/resultado.md
+      - Avaliação de Usuário:
+          - Roteiro de Avaliação: resultado/roteiro.md
+          - Resultados da Avaliação: resultado/resultados_avaliacao.md
+  - Fundamentos de UX:
+      - Avaliação de UX e Heurísticas de Nielsen: ux/ux.md
+      - Personas: ux/personas.md
+      - Jornadas: ux/jornadas.md
+      - Blueprint: ux/blueprint.md
+      - Canvas: ux/canvas.md
+      - Mapeamento de Experiências: ux/mapeamento.md
+      - Design Empático: ux/design_empatico.md
+  - Ferramentas: referencias/referencias.md
+  - Histórico de Versões: historico/historico.md
   
-  - Geração de Conteúdo:
-    - Conteúdo: 'geracaoConteudo/conteudo.md'
-
-  - Gestão de Projetos:
-    - Gestão de Projetos: 'gestaoProjeto/gestaoProjeto.md'
-
-  - Ferramentas:
-    - Ferramentas de Acessibilidade: 'tools/ferramentas.md'
-
 theme:
-  name: readthedocs
-  locale: pt_BR
-  titles_only: true
-  logo: imagens/logo-verificaaa.png
-  favicon: imagens/logo-verificaaa.png
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: pt
+
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Mudar para o modo escuro
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Mudar para o modo claro
 
 markdown_extensions:
-  - def_list
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.emoji
   - pymdownx.tasklist:
-      custom_checkbox: false
       clickable_checkbox: true
 
 extra_css:
-  - stylesheets/extra.css
+  - css/custom.css
+
+extra_javascript:
+  - js/progress.js
