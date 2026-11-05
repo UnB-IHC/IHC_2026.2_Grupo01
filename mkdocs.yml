@@ -1,17 +1,18 @@
-site_name: Documentação Guia de Acessiblidade Digital
+site_name: Documentação Guia de Acessibilidade Digital
+site_url: https://unb-ihc.github.io/IHC_2026.2_Grupo01/
 
 nav:
   - Página Inicial: index.md
-  - Guia de Acessiblidade:
+  - Guia de Acessibilidade:
       - Sobre: guia_acessibilidade/sobre.md
       - Gestão de Projetos: guia_acessibilidade/guia_gestao.md
       - Desenvolvimento: guia_acessibilidade/guia_desenvolvimento.md
       - Design: guia_acessibilidade/guia_design.md
       - Conteúdo: guia_acessibilidade/guia_conteudo.md
       - Resultado Final: resultado/resultado.md
-      - Avaliação de Usuário:
-          - Roteiro de Avaliação: resultado/roteiro.md
-          - Resultados da Avaliação: resultado/resultados_avaliacao.md
+  - Avaliação de Usuário:
+      - Roteiro de Avaliação: resultado/roteiro.md
+      - Resultados da Avaliação: resultado/resultados_avaliacao.md
   - Fundamentos de UX:
       - Avaliação de UX e Heurísticas de Nielsen: ux/ux.md
       - Personas: ux/personas.md
@@ -22,9 +23,10 @@ nav:
       - Design Empático: ux/design_empatico.md
   - Ferramentas: referencias/referencias.md
   - Histórico de Versões: historico/historico.md
-  
+
 theme:
   name: material
+  language: pt
   features:
     - navigation.instant
     - navigation.tracking
@@ -38,8 +40,6 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-  language: pt
-
   palette:
     - scheme: default
       primary: custom
