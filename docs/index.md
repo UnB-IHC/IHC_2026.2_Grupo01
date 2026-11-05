@@ -1,4 +1,4 @@
-# Guia de Acessibilidade - Gp 8 - IHC 2026/1
+# Guia de Acessibilidade - Grupo 01 - IHC 2026/2
 
 * Disciplina: Interação Humano Computador – FGA0173
 * Professora: Rejane Maria da Costa Figueiredo
