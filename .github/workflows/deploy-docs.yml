@@ -4,7 +4,8 @@ on:
   push:
     branches:
       - main
-      
+  workflow_dispatch:
+
 permissions:
   contents: write
 
@@ -14,16 +15,21 @@ jobs:
     steps:
       - name: Checkout do repositório
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Configurar o Python
         uses: actions/setup-python@v5
         with:
           python-version: 3.x
 
-      - name: Instalar dependências
+      - name: Configurar identidade do git
         run: |
-          pip install mkdocs
-          pip install mkdocs-material 
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Instalar dependências
+        run: pip install mkdocs mkdocs-material
 
       - name: Fazer o deploy para o GitHub Pages
         run: mkdocs gh-deploy --force
