@@ -24,6 +24,21 @@
 - [ ] **Manter design estético e minimalista**, contendo apenas informações relevantes e necessárias para a tarefa atual.   _(Heurística 8)_ [(66)](https://www.nngroup.com/articles/ten-usability-heuristics/)
 - [ ] **Evitar esconder conteúdo de tecnologias assistivas** com `display:none` ou `visibility:hidden` (em CSS) em elementos que deveriam ser lidos.   _(Guia-UK)_ [(67)](#)
 
+### Tipografia e Legibilidade
+- [ ] **Utilizar tamanhos de fonte que favoreçam a legibilidade**, evitando textos excessivamente pequenos e permitindo ampliação sem perda de conteúdo ou funcionalidade. `WCAG 1.4.4 (AA)` [(121)](https://www.w3.org/WAI/WCAG22/Understanding/resize-text)
+
+### Alinhamento e Organização do Texto
+- [ ] **Priorizar o alinhamento à esquerda em blocos de texto**, evitando a justificação que pode gerar espaçamentos irregulares entre palavras e dificultar a leitura para algumas pessoas. `Boa prática de usabilidade e legibilidade`.
+
+### Animações e Movimento
+- [ ] **Respeitar a preferência do usuário por movimento reduzido**, permitindo desativar ou reduzir animações e transições não essenciais, considerando a configuração `prefers-reduced-motion` do sistema operacional. `WCAG 2.3.3 (AAA)` [(122)](https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions)
+
+### Personalização Visual
+- [ ] **Disponibilizar opções de personalização visual**, como modo escuro ou alto contraste, quando aplicável, garantindo que todas as combinações de cores mantenham os requisitos de contraste e legibilidade. `Boa prática de acessibilidade e usabilidade`.
+
+### Movimento e Conteúdo Dinâmico
+- [ ] **Disponibilizar controles para pausar, parar ou ocultar animações e conteúdos em movimento exibidos automaticamente por mais de cinco segundos**, quando apresentados em paralelo a outros conteúdos, permitindo que o usuário controle a experiência visual. `WCAG 2.2.2 (A)` [(123)](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide)
+
 ### Orientação e Características Sensoriais
 - [ ] **Não restringir o conteúdo a uma única orientação de exibição** (retrato ou paisagem), salvo quando a orientação for essencial.   `Grupo 08 / NBR 5.10.3 / WCAG 1.3.4 (AA)` [(117)](https://www.w3.org/WAI/WCAG22/Understanding/orientation)
 - [ ] **Não transmitir instruções que dependam apenas de características sensoriais** (forma, cor, tamanho, localização visual, orientação ou som).   `NBR 5.10.1 / WCAG 1.3.3 (A)` [(118)](https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics)
