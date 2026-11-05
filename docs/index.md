@@ -1,9 +1,5 @@
 # Guia de Acessibilidade - Gp 8 - IHC 2026/1
 
-<p align="center">
-  <img class="logo-home" src="assets/logo-mifarma.png" alt="Logo do MiFarma" width="420">
-</p>
-
 * Disciplina: Interação Humano Computador – FGA0173
 * Professora: Rejane Maria da Costa Figueiredo
 * Turma T02 – 2026-02
