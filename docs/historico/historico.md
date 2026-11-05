@@ -6,6 +6,23 @@ O versionamento segue o formato `MAJOR.MINOR.PATCH` e as datas usam o padrão `A
 
 ## Versões
 
+### [1.4.0] – 2026-11-05 — Atualização do Guia e Consolidação dos Checklists
+
+Atualização *minor* focada na ampliação das referências normativas, revisão do conteúdo introdutório e aprimoramento dos critérios de verificação de acessibilidade.
+
+#### Adicionado
+- **Atualização do arquivo `sobre.md`**: inclusão de informações sobre a ABNT NBR 17225:2025, seus níveis de conformidade (A, AA e AAA) e sua relação com a WCAG 2.2.
+- **Relação entre normas e boas práticas**: inclusão de uma análise comparativa entre a norma brasileira e o Guia de Acessibilidade Digital do Reino Unido.
+- **Referências normativas complementares**: inclusão de normas ABNT e recomendações W3C relacionadas à acessibilidade digital.
+
+#### Alterado
+- **Checklist de Desenvolvimento**: comparação e consolidação de critérios técnicos de acessibilidade, incluindo semântica HTML, navegação por teclado, formulários, tecnologias assistivas e validação.
+- **Checklist de Design**: revisão dos critérios relacionados a contraste, foco visível, responsividade, espaçamento, cores, orientação de tela e características sensoriais.
+- **Checklist de Conteúdo**: aprimoramento dos critérios de estrutura textual, linguagem simples, alternativas para mídias, audiodescrição, Libras, links e metadados.
+- **Organização do Guia**: revisão da apresentação, finalidade, público-alvo e descrição das quatro áreas principais do material.
+
+---
+
 ### [1.3.0] – 2026-11-04 — Lançamento da Versão Dinâmica (GitHub Pages)
 
 Atualização *minor* que marca a migração oficial do conteúdo para o ambiente web interativo.
@@ -41,6 +58,7 @@ Versão inicial de estruturação do guia.
 - **Primeira Versão do Sumário**: criação da primeira versão do Sumário do Guia de Boas Práticas para Acessibilidade Digital da NBR, desenvolvida inicialmente em ambiente de documentação (*docs*).
 
 ---
+
 ## Agradecimentos e Referências
 
 Destacamos que a equipe do repositório abaixo serviu de grande referência e base para o desenvolvimento do nosso projeto:
@@ -61,4 +79,3 @@ Destacamos que a equipe do repositório abaixo serviu de grande referência e ba
 </table>
 
 ---
-
