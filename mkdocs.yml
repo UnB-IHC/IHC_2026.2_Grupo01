@@ -1,5 +1,7 @@
 site_name: Documentação Guia de Acessibilidade Digital
 site_url: https://unb-ihc.github.io/IHC_2026.2_Grupo01/
+use_directory_urls: true
+
 
 nav:
   - Página Inicial: index.md
