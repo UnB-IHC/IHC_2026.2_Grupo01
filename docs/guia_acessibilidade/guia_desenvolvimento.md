@@ -6,6 +6,9 @@
 
 ### Foco, Navegação e Teclado
 - [ ] **Garantir navegação por teclado** em todos os elementos interativos, utilizando Tab, Shift+Tab, Enter, Espaço e Teclas de Seta.   `5.1.5/2.1.1 (A)` [(14)](https://www.w3.org/WAI/WCAG22/Understanding/keyboard)
+
+- [ ] **Garantir que o indicador de foco do teclado esteja sempre visível**, destacando visualmente o elemento que está sendo acessado durante a navegação por teclado. `WCAG 2.4.7 (AA)` [(117)](https://www.w3.org/WAI/WCAG22/Understanding/focus-visible)
+    
 - [ ] **Evitar armadilhas de foco**, permitindo que o usuário saia de qualquer elemento (pop-ups ou menus) usando a tecla Tab.   `5.1.6/2.1.2 (A)` [(15)](https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap)
 - [ ] **Manter ordem de foco previsível e lógica**, permitindo navegação intuitiva e sequencial entre os elementos a focar.   `5.4.1/2.4.3 (A)` [(16)](https://www.w3.org/WAI/WCAG22/Understanding/focus-order)
 - [ ] **Controlar a exibição ou ocultação de conteúdo extra no foco**, garantindo que o conteúdo seja dispensável ou só seja dispensado após o elemento perder foco.   `5.1.8, 5.1.9/1.4.13 (AA)` [(17)](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus)
@@ -19,6 +22,9 @@
 - [ ] **Incluir descrição em texto** em todas as tabelas complexas.   `5.6.6/3.1.5 (AAA)` [(23)](https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose)
 
 ### Formulários
+
+- [ ] **Apresentar mensagens de erro claras, visíveis e próximas aos campos correspondentes**, identificando o problema e orientando o usuário sobre como corrigi-lo. `WCAG 3.3.1 (A), 3.3.3 (AA)` [(119)](https://www.w3.org/WAI/WCAG22/Understanding/error-identification)
+
 - [ ] **Garantir a tag `<label>` para todos os campos do formulário**, fornecendo um rótulo visível que indica o que deve ser preenchido.   `5.9.1/3.3.2 (A)` [(24)](https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions)
 - [ ] **Evitar pedir informações repetidas** no formulário que o usuário já forneceu nesta mesma sessão.   `5.9.15/3.3.7 (A) ITRAC` [(25)](https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry)
 - [ ] **Permitir reverter formulários críticos** (como aqueles envolvendo dados legais ou financeiros).   `5.9.12/3.3.4 (AA)` [(26)](https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data)
@@ -48,8 +54,12 @@
 ### Botões e Controles
 - [ ] **Usar a tag `<button>` ou `role="button"`** em elementos que executam uma ação na página (como "Enviar", "Buscar", "Fechar").   `5.8.1/1.3.1 (A)` [(36)](#)
 - [ ] **Garantir que o texto acessível do botão corresponda ao texto visível** (Ex: se o botão diz "Ver Carrinho", o leitor de tela deve ler "Ver Carrinho").   `5.13.7/2.5.3 (A)` [(37)](#)
+- [ ] **Garantir tamanho adequado para áreas de interação**, como botões, ícones e controles, facilitando o acionamento por pessoas com limitações motoras ou que utilizam dispositivos sensíveis ao toque. `WCAG 2.5.8 (AA)` [(121)](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum)
 
 ### Idioma e Zoom
+
+- [ ] **Fornecer texto alternativo para imagens relevantes**, utilizando o atributo `alt` para transmitir informações visuais aos usuários de leitores de tela. Imagens puramente decorativas devem possuir `alt=""`. `WCAG 1.1.1 (A)` [(118)](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content)
+
 - [ ] **Definir o idioma principal da página com o atributo `lang="pt-BR"`**, para que os leitores de tela usem a pronúncia correta.   `5.13.2/3.1.1 (A)` [(38)](https://www.w3.org/WAI/WCAG22/Understanding/language-of-page)
 - [ ] **Não bloquear o recurso de zoom do navegador** (evitar `user-scalable=no` / `maximum-scale=1`), permitindo a ampliação até 200% sem perda de conteúdo ou funcionalidade.   `NBR 5.13.5 / WCAG 1.4.4 (AA)` [(110)](https://www.w3.org/WAI/WCAG22/Understanding/resize-text)
 - [ ] **Evitar alturas fixas que impeçam a expansão natural do conteúdo** quando o texto aumenta, prevenindo truncamento e sobreposição.   `Grupo 08 – Guia BP (seção 3, p.28)` [(111)](#)
@@ -72,6 +82,18 @@
 
 ### Modais e Componentes
 - [ ] **Tornar modais acessíveis** quando indispensáveis: botão de fechar claro e visível, suporte à tecla ESC, conteúdo breve, interação limitada a uma tarefa e validação com leitor de tela; evitar abrir modal a partir de outro modal ou de forma automática.   `Grupo 08 – Guia BP (seção 3, p.32–33)` [(116)](#)
+
+### Estrutura e Hierarquia de Conteúdo
+
+- [ ] **Manter uma hierarquia lógica de cabeçalhos (`<h1>`, `<h2>`, `<h3>` etc.)**, organizando o conteúdo de forma consistente e permitindo que usuários de leitores de tela compreendam a estrutura da página. `WCAG 1.3.1 (A), 2.4.6 (AA)` [(120)](https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels)
+
+### Compatibilidade com Tecnologias Assistivas
+
+- [ ] **Garantir compatibilidade com leitores de tela**, como NVDA e VoiceOver, verificando se os conteúdos, controles, rótulos e funcionalidades são anunciados corretamente durante a navegação. `WCAG 1.3.1 (A), 4.1.2 (A)`
+
+### Testes e Validação
+
+- [ ] **Realizar testes automáticos de acessibilidade** utilizando ferramentas como WAVE, axe DevTools ou Lighthouse, identificando possíveis problemas de conformidade com as diretrizes WCAG.
 
 ### Recomendações
 - [ ] **Garantir que Captchas tenham alternativas acessíveis**, como desafios de áudio ou outras formas de verificação.   `Guia-UK` [(47)](#)
