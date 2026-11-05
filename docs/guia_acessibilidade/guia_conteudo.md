@@ -15,6 +15,7 @@
 - [ ] **Marcar semanticamente trechos de ênfase, citação e abreviação** (ex.: `<em>`, `<strong>`, `<blockquote>`, `<abbr>`), e não apenas com estilo visual.   `NBR 5.12.8 / WCAG 1.3.1 (A)` [(122)](https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships)
 - [ ] **Alinhar os blocos de texto à esquerda** (para idiomas lidos da esquerda para a direita), evitando o texto justificado.   `NBR 5.12.5 / WCAG 1.4.8 (AAA) / Guia-UK` [(123)](https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation)
 - [ ] **Limitar a largura dos blocos de texto** a cerca de 80 caracteres por linha, facilitando a leitura.   `NBR 5.12.6 / Guia-UK` [(124)](https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation)
+- [ ] **Evitar frases excessivamente longas, ambiguidades e construções complexas**, priorizando informações objetivas, diretas e organizadas de maneira lógica. `Boa prática de usabilidade e acessibilidade`.
 
 ### Alternativas para Mídia
 
@@ -25,10 +26,15 @@
 - [ ] **Criar uma alternativa em texto para todo conteúdo visual ou auditivo** que não seja puramente textual.   `5.14.1, 5.14.2/1.2.1 (A), 1.2.2 (A), 1.2.3 (A) ITRAC` [(81)](#)
 - [ ] **Fornecer alternativas para conteúdo que depende de um só sentido** (áudio ou vídeo), como transcrição para áudio ou descrição textual para vídeo.   `1.2.3 (A) ITRAC` [(82)](#)
 - [ ] **Fornecer transcrições para áudios** e legendas sincronizadas para vídeos.   `WCAG 1.2.2 (A)` e `1.2.4 (AA)` [(83)](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded)
+- [ ] **Garantir que legendas de vídeos incluam diálogos, identificação de falantes e informações sonoras relevantes**, mantendo sincronização com o conteúdo audiovisual. `WCAG 1.2.2 (A)` [(129)](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded).
 - [ ] **Evitar uso de metáforas visuais complexas** que possam gerar confusão.   _(Guia-UK)_ [(84)](#)
 - [ ] **Fornecer descrição detalhada para imagens complexas** (gráficos, infográficos, diagramas) em local separado (próximo à imagem ou em outra página), além do texto alternativo curto.   `NBR 5.2.4 / WCAG 1.1.1 (A) / Guia-UK` [(125)](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content)
 - [ ] **Fornecer audiodescrição do conteúdo visual relevante dos vídeos** pré-gravados, prevendo o tempo necessário já no roteiro.   `NBR 5.14.4 / WCAG 1.2.5 (AA) / Guia-UK` [(126)](https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded)
+- [ ] **Disponibilizar transcrição textual para conteúdos exclusivamente em áudio**, como podcasts e gravações, permitindo que pessoas surdas ou com deficiência auditiva tenham acesso às informações transmitidas. `WCAG 1.2.1 (A)` [(128)](https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded)
 - [ ] **Disponibilizar janela de interpretação em Libras** para vídeos e áudios, posicionada e contrastada de forma legível.   `NBR 5.14.6 / WCAG 1.2.6 (AAA) / Guia-UK` [(127)](https://www.w3.org/WAI/WCAG22/Understanding/sign-language-prerecorded)
+
+### Linguagem Inclusiva e Respeitosa
+- [ ] **Utilizar terminologia respeitosa e inclusiva ao se referir a pessoas com deficiência**, priorizando expressões como "pessoa com deficiência" e evitando termos capacitistas, pejorativos ou ultrapassados. `(Boa prática de acessibilidade e inclusão)` 
 
 ### Links e Botões
 
