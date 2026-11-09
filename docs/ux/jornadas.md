@@ -6,23 +6,24 @@ Em Interação Humano-Computador (IHC), jornada (ou jornada do usuário, user jo
 Em vez de olhar para uma tela ou funcionalidade isolada, a jornada olha para a experiência completa ao longo do tempo. Por exemplo, a jornada de alguém que quer pedir comida por um aplicativo inclui: descobrir o app, instalar, criar conta, escolher o restaurante, montar o pedido, pagar, acompanhar a entrega, receber e avaliar.
 
 ## O que costuma compor uma jornada
-Persona ou usuário: quem vive a jornada.
-Objetivo: o que a pessoa quer alcançar.
-Etapas: fases do processo (ex.: descoberta, consideração, uso, suporte).
-Ações: o que o usuário faz em cada etapa.
-Pontos de contato (touchpoints): onde ocorre a interação (site, app, e-mail, atendimento, loja física).
-Emoções e pensamentos: satisfação, frustração, dúvidas, expectativas.
-Dores (pain points): obstáculos e frustrações.
-Oportunidades: onde o design pode melhorar a experiência.
-Mapa de jornada (journey map)
+* Persona ou usuário: quem vive a jornada.
+* Objetivo: o que a pessoa quer alcançar.
+* Etapas: fases do processo (ex.: descoberta, consideração, uso, suporte).
+* Ações: o que o usuário faz em cada etapa.
+* Pontos de contato (touchpoints): onde ocorre a interação (site, app, e-mail, atendimento, loja física).
+* Emoções e pensamentos: satisfação, frustração, dúvidas, expectativas.
+* Dores (pain points): obstáculos e frustrações.
+* Oportunidades: onde o design pode melhorar a experiência.
+* Mapa de jornada (journey map)
 
 É a representação visual da jornada, geralmente em formato de linha do tempo, com uma curva emocional mostrando os altos e baixos da experiência. Serve para:
 
-identificar problemas e gargalos;
-alinhar equipes (design, desenvolvimento, negócio) em torno da perspectiva do usuário;
-priorizar melhorias;
-gerar empatia com quem usa o produto.
-Jornada x fluxo de usuário
+* identificar problemas e gargalos;
+* alinhar equipes (design, desenvolvimento, negócio) em torno da perspectiva do usuário;
+* priorizar melhorias;
+* gerar empatia com quem usa o produto.
+
+## Jornada x fluxo de usuário
 Fluxo de usuário (user flow): foca nos caminhos e decisões dentro do sistema (telas, cliques, condições).
 Jornada: tem escopo mais amplo, incluindo o contexto, os sentimentos e os momentos fora do sistema.
 
