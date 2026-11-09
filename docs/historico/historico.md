@@ -6,6 +6,20 @@ O versionamento segue o formato `MAJOR.MINOR.PATCH` e as datas usam o padrão `A
 
 ## Versões
 
+### [1.5.0] – 2026-11-09 — Fundamentos de UX e Avaliação de Usabilidade
+
+Atualização *minor* que amplia o projeto além do guia de acessibilidade, incluindo a base teórica de UX e o planejamento da avaliação com usuários do site Nota Legal.
+
+#### Adicionado
+- **Fundamentos de UX e Heurísticas de Nielsen**: inclusão de conceitos de experiência do usuário e documentação das 10 heurísticas de Nielsen (`ux/ux.md`).
+- **Mapeamento de Experiências do Nota Legal**: inclusão do mapeamento de experiências do site avaliado (`ux/mapeamento.md`).
+- **Roteiro de Avaliação de Usuário**: criação do roteiro de teste de usabilidade moderado com *Think Aloud* para o site Nota Legal, com cenários de tarefa, critérios de sucesso, caminho esperado, tempos de referência e limite, aplicação do SUS e entrevistas inicial e final (`resultado/roteiro.md`).
+
+#### Alterado
+- **Roteiro de teste de usabilidade**: revisão e adequação do roteiro às exigências do documento-template da disciplina, incluindo a ordem fixa da sessão e as regras de proteção de dados pessoais nas tarefas.
+
+---
+
 ### [1.4.0] – 2026-11-05 — Atualização do Guia e Consolidação dos Checklists
 
 Atualização *minor* focada na ampliação das referências normativas, revisão do conteúdo introdutório e aprimoramento dos critérios de verificação de acessibilidade.
