@@ -1,100 +1,98 @@
 # Roteiro de Teste de Usabilidade
 
-**Método:** Teste de Usabilidade Moderado utilizando a técnica *Think Aloud*
+**Método:** Teste de Usabilidade Moderado com a técnica *Think Aloud*
 
 **Site avaliado:** Programa Nota Legal do Distrito Federal (notalegal.df.gov.br)
 
 ---
 
-## Objetivo
+## 1. Objetivo
 
-Avaliar a usabilidade e a acessibilidade do portal do Nota Legal, identificando dificuldades, pontos positivos e oportunidades de melhoria relacionadas à **navegação**, **arquitetura da informação**, **clareza do conteúdo**, **acessibilidade** e **experiência do usuário**.
-
-Por ser um serviço público usado por pessoas de perfis muito diversos, o foco está em saber se o cidadão consegue **entender o programa, se cadastrar e acompanhar seus créditos sem ajuda**.
+Avaliar a usabilidade e a acessibilidade do portal do Nota Legal, identificando dificuldades, pontos positivos e oportunidades de melhoria em **navegação**, **arquitetura da informação**, **clareza do conteúdo** e **experiência do usuário**.
 
 ---
 
-## Antes do teste
+## 2. Organização da sessão
 
-!!! info "Checklist da equipe"
-    - Acessar o site e **confirmar que as tarefas ainda correspondem ao que existe nele** (nomes de menus, botões e páginas podem mudar).
-    - Verificar os **prazos vigentes** (indicação de créditos, regularização, sorteios), pois mudam a cada ano.
-    - Definir se o teste será no **computador**, no **celular** ou nos dois.
-    - Realizar um **teste-piloto** com um colega para ajustar tempo e linguagem das tarefas.
+### 2.1 Papéis
 
-### Perfil dos participantes
+| Papel | Responsabilidade |
+| :--- | :--- |
+| Moderador | Conduz a sessão, lê os textos, aplica os estímulos neutros e **não ajuda** na tarefa. |
+| Observador | Preenche os registros, cronometra as tarefas e anota eventos críticos. |
 
-Recrutar de 3 a 5 pessoas, preferencialmente com perfis variados:
+### 2.2 Materiais e ambiente
 
-- Moradores do DF que **já usam** o Nota Legal;
-- Moradores do DF que **nunca usaram**;
-- Pessoas com **baixa familiaridade digital** (ex.: idosos);
-- Pessoas que usam **tecnologias assistivas** ou tenham alguma deficiência, se possível.
+- Termo de Consentimento Livre e Esclarecido (TCLE), em duas vias;
+- Cartões impressos com o cenário de cada tarefa (o moderador lê em voz alta e entrega o cartão);
+- Gravação de tela e de áudio testada previamente;
+- Cronômetro;
+- Formulário do SUS e fichas de registro.
 
-### Autorização e privacidade
+### 2.3 Ordem da sessão
 
-Antes de iniciar, solicitar autorização para:
+A ordem é **fixa** e igual para todos os participantes:
 
-- gravar a tela;
-- gravar o áudio;
-- registrar observações.
+1. Acolhida
+2. Assinatura do termo
+3. Entrevista inicial
+4. Orientação para pensar em voz alta
+5. Execução das tarefas
+6. Aplicação do SUS
+7. Entrevista final
+8. Encerramento
 
-!!! warning "Dados pessoais (LGPD)"
-    O site lida com **CPF, senha e dados bancários**. Orientar o participante a **não revelar nem digitar dados reais** durante a gravação. As tarefas que dependem de login devem ser feitas **até a tela de entrada**, ou com uma conta de teste, caso exista. Nunca gravar senhas.
+### 2.4 Duração prevista
 
----
+| Etapa | Tempo |
+| :--- | :---: |
+| Acolhida | 2 min |
+| Assinatura do termo | 3 min |
+| Entrevista inicial | 4 min |
+| Orientação para pensar em voz alta (com treino) | 5 min |
+| Execução das tarefas | 25 min |
+| Aplicação do SUS | 4 min |
+| Entrevista final | 5 min |
+| Encerramento | 2 min |
+| **Total** | **50 min** |
 
-## Introdução
-
-!!! quote "Leia o texto abaixo para o participante"
-    Obrigado por participar deste teste.
-
-    Estamos avaliando **o site** e não você. Não existem respostas certas ou erradas.
-
-    Durante toda a navegação, gostaria que você utilizasse a técnica chamada **"Pensar em Voz Alta"**.
-
-    Isso significa que você deve falar tudo o que estiver passando pela sua cabeça.
-
-    Por exemplo:
-
-    - o que está procurando;
-    - o que espera encontrar;
-    - por que clicou em determinado botão;
-    - o que chamou sua atenção;
-    - quando estiver confuso;
-    - quando algo parecer fácil ou difícil.
-
-    Não se preocupe em organizar o pensamento. Basta falar naturalmente enquanto navega.
-
-    Eu permanecerei em silêncio durante as tarefas e não direi se algo está certo ou errado.
-    Você pode parar a qualquer momento, sem nenhum problema.
-
-### Perguntas iniciais (perfil)
-
-1. Você já ouviu falar do Nota Legal? Já usou?
-2. Costuma pedir CPF na nota? Por quê?
-3. Com que frequência usa serviços do governo pela internet?
-4. Qual dispositivo costuma usar para isso (celular, computador)?
-
-### Exemplo de Think Aloud
-
-Antes de iniciar, faça um exercício simples.
-
-Peça ao participante:
-
-> *"Imagine que você precisa consultar o valor do seu IPVA no site do governo."*
-
-Enquanto ele responde, incentive:
-
-> *"Continue dizendo tudo o que está pensando."*
-
-Esse pequeno treinamento ajuda o participante a se acostumar com a verbalização.
+!!! warning "Regra de consistência"
+    A **soma dos tempos-limite das tarefas (seção 4) não pode ultrapassar os 25 minutos** reservados à execução. Se passar, ajuste os limites ou a duração da sessão e registre a justificativa.
 
 ---
 
-## Papel do Moderador
+## 3. Condução da sessão
 
-!!! warning "Regras do moderador durante o teste"
+### 3.1 Acolhida
+
+!!! quote "Leia para o participante"
+    Obrigado por participar. Vamos avaliar **o site**, e não você. Não existem respostas certas ou erradas, e você pode interromper a sessão a qualquer momento, sem nenhum prejuízo.
+
+### 3.2 Assinatura do termo
+
+Apresentar o TCLE, explicar o uso das gravações (tela e áudio) e colher a assinatura **antes de iniciar qualquer gravação**.
+
+!!! warning "Dados pessoais"
+    Nenhuma tarefa exige dados reais. Peça ao participante que **não digite CPF, senha, número de cartão ou qualquer dado pessoal** durante o teste.
+
+### 3.3 Entrevista inicial
+
+Objetivo: **caracterizar o participante**.
+
+1. Com que frequência você usa a internet?
+2. Você já conhecia ou já usou o site do Nota Legal? Com que frequência?
+3. Você usa algum recurso de acessibilidade (por exemplo: leitor de tela, ampliação de tela, alto contraste, legendas, comandos por voz ou teclado)? Qual?
+
+### 3.4 Orientação para pensar em voz alta
+
+!!! quote "Leia para o participante"
+    Durante a navegação, gostaria que você **falasse tudo o que estiver pensando**: o que está procurando, o que espera encontrar, por que clicou em determinado lugar, quando algo parecer fácil, difícil ou confuso. Não precisa organizar o pensamento. Eu ficarei em silêncio durante as tarefas e não direi se algo está certo ou errado.
+
+**Treino:** peça ao participante que descreva, pensando em voz alta, como descobriria o horário de funcionamento de uma biblioteca pública pela internet. Incentive com: *"Continue dizendo tudo o que está pensando."*
+
+### 3.5 Papel do moderador durante as tarefas
+
+!!! warning "Regras"
     ✔ Não ensinar.
 
     ✔ Não apontar erros.
@@ -103,11 +101,7 @@ Esse pequeno treinamento ajuda o participante a se acostumar com a verbalizaçã
 
     ✔ Não responder perguntas relacionadas à tarefa.
 
-    Caso o participante pare de falar, utilize apenas **estímulos neutros**.
-
-### Frases de incentivo
-
-Utilize apenas quando necessário:
+Se o participante parar de falar, use **apenas estímulos neutros**:
 
 1. O que está passando pela sua cabeça agora?
 2. O que você esperava encontrar?
@@ -117,212 +111,189 @@ Utilize apenas quando necessário:
 6. O que você acredita que acontecerá se clicar aí?
 7. O que está procurando neste momento?
 8. Isso era o que você esperava?
-9. Como chegou a essa conclusão?
-10. Há algo que esteja causando dúvida?
-
-!!! info "Observação"
-    Essas perguntas não direcionam a resposta, apenas incentivam a verbalização.
-
-### Critérios para encerrar uma tarefa
-
-- **Sucesso:** o participante concluiu sozinho.
-- **Sucesso com dificuldade:** concluiu, mas com desvios, erros ou hesitação longa.
-- **Falha:** desistiu ou chegou a um resultado errado.
-- **Tempo limite:** se passar de **5 minutos** sem avanço, encerrar e anotar como falha.
 
 ---
 
-## Tarefas
+## 4. Tarefas
 
-!!! info "Observação sobre os cenários"
-    Os cenários abaixo **não citam os nomes dos menus ou botões** do site, para não induzir o caminho.
+Cada tarefa é apresentada como **cenário**, sem citar nomes de menus, botões ou páginas. Nenhuma tarefa exige dados pessoais reais; as que envolvem cadastro **terminam antes do envio dos dados**. A ordem é a mesma para todos.
 
-### Tarefa 1 – Entender o programa
+!!! info "Resultado de cada tarefa"
+    **Sucesso:** cumpriu o critério sozinho. **Sucesso com dificuldade:** cumpriu, mas com desvios, erros ou hesitação longa. **Falha:** desistiu ou chegou a um resultado incorreto. **Tempo-limite:** ao atingir o limite, o moderador diz *"Vamos passar para a próxima tarefa"* e registra como falha por tempo.
+
+### Tarefa 1 – Descobrir como usar os créditos
 
 **Cenário:**
 
-> *"Um amigo comentou que existe um programa do governo do DF que devolve parte do imposto para quem pede CPF na nota. Você quer entender o que é esse programa e se vale a pena participar."*
+> *"Você soube que é possível usar os créditos acumulados no Nota Legal para pagar menos imposto. Descubra em quais impostos esse desconto pode ser aplicado."*
 
-**Observe:**
-
-- Primeira ação realizada na página inicial.
-- Se o participante consegue explicar o programa com as próprias palavras.
-- Clareza da linguagem (termos como ICMS, ISS, crédito, bilhete).
-- Onde o olhar vai primeiro.
-- Informações ignoradas ou mal interpretadas.
-
-**Perguntas após a tarefa:**
-
-1. Como você explicaria o programa para outra pessoa?
-2. Alguma palavra ou informação gerou dúvida?
+| Campo | Definição |
+| :--- | :--- |
+| **Ponto de partida** | Página inicial do site. |
+| **Critério de sucesso** | Informar que os créditos podem abater **IPTU e IPVA** (os dois). |
+| **Caminho esperado** | Página inicial → página de **Benefícios** → seção de abatimento de impostos. |
+| **Tempo de referência** | *(preencher no ensaio)* |
+| **Tempo-limite** | *(definir após o ensaio)* |
+| **Justificativa do limite** | *(complexidade da tarefa e tempo de referência)* |
 
 ---
 
-### Tarefa 2 – Cadastrar-se
+### Tarefa 2 – Iniciar o cadastro
 
 **Cenário:**
 
-> *"Você decidiu participar. Descubra como criar o seu cadastro."*
+> *"Você decidiu participar do programa e quer criar o seu cadastro. Avance até o ponto em que o site pede seus dados pessoais e pare ali, sem digitar nenhuma informação."*
 
-**Observe:**
+| Campo | Definição |
+| :--- | :--- |
+| **Ponto de partida** | Página inicial do site. |
+| **Critério de sucesso** | Chegar à tela de cadastro (formulário ou etapa que solicita os dados) **sem preencher nem enviar nada**. |
+| **Caminho esperado** | Página inicial → botão de cadastro ("Quero me cadastrar!") → tela de cadastro. |
+| **Tempo de referência** | *(preencher no ensaio)* |
+| **Tempo-limite** | *(definir após o ensaio)* |
+| **Justificativa do limite** | *(complexidade da tarefa e tempo de referência)* |
 
-- Facilidade para encontrar a opção de cadastro.
-- Clareza das etapas e dos dados solicitados.
-- Mensagens de erro e validação dos campos.
-- Compreensão de quais documentos são necessários.
-- Hesitação diante do pedido de dados pessoais.
-
-!!! warning "Atenção"
-    Conduzir apenas **até o início do preenchimento**, sem enviar dados reais.
+!!! warning "Moderador"
+    Se o participante começar a digitar dados reais, interrompa com gentileza e encerre a tarefa como concluída.
 
 ---
 
-### Tarefa 3 – Consultar créditos e acessar a conta
+### Tarefa 3 – Saber sobre o próximo sorteio
 
 **Cenário:**
 
-> *"Você já tem cadastro e quer ver quanto de crédito acumulou."*
+> *"Você ficou curioso sobre os sorteios do programa. Descubra quando será o próximo sorteio e quanto será distribuído em prêmios."*
 
-**Observe:**
-
-- Facilidade para encontrar o acesso à conta.
-- Clareza da tela de login (rótulos, recuperação de senha).
-- Compreensão do que são "créditos".
-- Facilidade para recuperar o acesso, caso esqueça a senha.
-
-**Perguntas após a tarefa:**
-
-1. O que você esperava ver depois de entrar?
-2. Ficou claro como o saldo é calculado?
+| Campo | Definição |
+| :--- | :--- |
+| **Ponto de partida** | Página inicial do site. |
+| **Critério de sucesso** | Informar **a data** e **o valor total de prêmios** do próximo sorteio, conforme publicado no site. *(O grupo anota os valores corretos antes de cada sessão.)* |
+| **Caminho esperado** | Página inicial → área de **Sorteios** → informações do sorteio vigente. |
+| **Tempo de referência** | *(preencher no ensaio)* |
+| **Tempo-limite** | *(definir após o ensaio)* |
+| **Justificativa do limite** | *(complexidade da tarefa e tempo de referência)* |
 
 ---
 
-### Tarefa 4 – Descobrir o que fazer com os créditos
+### Tarefa 4 – Receber créditos em dinheiro
 
 **Cenário:**
 
-> *"Você tem crédito acumulado e quer usá-lo para pagar menos imposto. Descubra quais opções existem e o que precisa fazer."*
+> *"Você acumulou créditos e prefere receber o valor em dinheiro, em vez de usá-lo em impostos. Descubra a partir de que saldo isso é possível e em que período do ano você precisa fazer o pedido."*
 
-**Observe:**
-
-- Facilidade para encontrar a página de benefícios.
-- Compreensão das opções (abatimento de IPTU, abatimento de IPVA, depósito em conta, sorteios).
-- Clareza das condições e dos **prazos**.
-- Se o participante percebe que precisa **indicar** a forma de uso.
-- Confusão entre as destinações.
-
-**Perguntas após a tarefa:**
-
-1. Qual opção faria mais sentido para você? Por quê?
-2. Ficou claro até quando é possível fazer a indicação?
+| Campo | Definição |
+| :--- | :--- |
+| **Ponto de partida** | Página inicial do site. |
+| **Critério de sucesso** | Informar o **saldo mínimo** e o **período de indicação da conta**, conforme o site. *(O grupo confere os valores vigentes antes da sessão.)* |
+| **Caminho esperado** | Página inicial → página de **Benefícios** → seção de depósito em conta bancária. |
+| **Tempo de referência** | *(preencher no ensaio)* |
+| **Tempo-limite** | *(definir após o ensaio)* |
+| **Justificativa do limite** | *(complexidade da tarefa e tempo de referência)* |
 
 ---
 
-### Tarefa 5 – Verificar a participação nos sorteios
+### Tarefa 5 – Pedir ajuda
 
 **Cenário:**
 
-> *"Você quer saber se está participando dos sorteios e se existe alguma pendência no seu cadastro."*
+> *"Surgiu uma dúvida sobre o programa que você não conseguiu resolver sozinho. Descubra como poderia falar com o atendimento."*
 
-**Observe:**
-
-- Facilidade para localizar a área de sorteios.
-- Compreensão do que é "bilhete" e "habilitação".
-- Clareza sobre pendências e como regularizá-las.
-- Clareza de datas, prêmios e resultados.
-
----
-
-### Tarefa 6 – Pedir ajuda
-
-**Cenário:**
-
-> *"Você ficou com uma dúvida que não encontrou no site. Descubra como poderia falar com alguém ou onde encontrar mais informações."*
-
-**Observe:**
-
-- Facilidade para localizar perguntas frequentes e canais de atendimento.
-- Clareza das informações de contato.
-- Se a ajuda está acessível de qualquer página.
+| Campo | Definição |
+| :--- | :--- |
+| **Ponto de partida** | Página inicial do site. |
+| **Critério de sucesso** | Encontrar **pelo menos um canal de atendimento** oficial (telefone, atendimento virtual ou perguntas frequentes). |
+| **Caminho esperado** | Página inicial → área de atendimento, dúvidas ou rodapé → canais de contato. |
+| **Tempo de referência** | *(preencher no ensaio)* |
+| **Tempo-limite** | *(definir após o ensaio)* |
+| **Justificativa do limite** | *(complexidade da tarefa e tempo de referência)* |
 
 ---
 
-### Tarefa 7 – Navegar com acessibilidade (opcional)
+### Quadro-resumo dos tempos
 
-Relaciona o teste diretamente aos critérios do **Guia de Acessibilidade**.
-
-**Cenário:**
-
-> *"Navegue pelo site usando apenas o teclado (Tab, Shift+Tab, Enter) até chegar à página de benefícios."*
-
-**Observe:**
-
-- Foco visível em todos os elementos.
-- Ordem lógica da navegação.
-- Existência de "pular para o conteúdo".
-- Armadilhas de teclado (o foco fica preso).
-- Legibilidade com **zoom em 200%**.
-- Contraste de textos e botões.
-- Comportamento em tela de celular.
-
-!!! tip "Variação"
-    Se houver participante que use leitor de tela, observe também a leitura de títulos, links, imagens e formulários.
+| Tarefa | Tempo de referência (ensaio) | Tempo-limite | Justificativa |
+| :--- | :---: | :---: | :--- |
+| 1 – Usar os créditos | | | |
+| 2 – Iniciar o cadastro | | | |
+| 3 – Próximo sorteio | | | |
+| 4 – Receber em dinheiro | | | |
+| 5 – Pedir ajuda | | | |
+| **Soma dos limites** | | **≤ 25 min** | |
 
 ---
 
-## Registro Think Aloud
+## 5. Aplicação do SUS
 
-Para cada tarefa, utilizar a tabela abaixo:
+Entregue o questionário *System Usability Scale* (SUS) logo após a última tarefa. Para cada afirmação, o participante marca de **1 (discordo totalmente)** a **5 (concordo totalmente)**.
+
+| Nº | Afirmação |
+| :---: | :--- |
+| 1 | Eu acho que gostaria de usar esse sistema com frequência. |
+| 2 | Eu achei o sistema desnecessariamente complexo. |
+| 3 | Eu achei o sistema fácil de usar. |
+| 4 | Eu acho que precisaria de ajuda de uma pessoa com conhecimentos técnicos para usar o sistema. |
+| 5 | Eu acho que as várias funções do sistema estão muito bem integradas. |
+| 6 | Eu acho que o sistema apresenta muita inconsistência. |
+| 7 | Eu imagino que as pessoas aprenderão como usar esse sistema rapidamente. |
+| 8 | Eu achei o sistema atrapalhado de usar. |
+| 9 | Eu me senti confiante ao usar o sistema. |
+| 10 | Eu precisaria aprender várias coisas novas antes de conseguir usar o sistema. |
+
+**Cálculo da pontuação:** nos itens ímpares, subtraia 1 da resposta; nos itens pares, subtraia a resposta de 5. Some tudo e multiplique por 2,5 (resultado de 0 a 100).
+
+---
+
+## 6. Entrevista final
+
+Objetivo: colher as **impressões do participante** sobre as principais dificuldades e as melhorias que sugere.
+
+1. Como foi sua experiência geral ao usar o site?
+2. Quais foram as principais dificuldades que você encontrou?
+3. Em que momento você se sentiu perdido ou em dúvida? O que aconteceu?
+4. Alguma informação ou termo do site gerou confusão?
+5. O que você mudaria primeiro para melhorar o site?
+6. Que outras melhorias você sugere?
+
+---
+
+## 7. Encerramento
+
+Agradecer a participação, esclarecer dúvidas sobre o uso das gravações, lembrar que os dados serão tratados de forma anônima e informar como o participante pode acessar os resultados, se desejar.
+
+---
+
+## 8. Ensaio
+
+Antes de iniciar as sessões, o grupo realiza um **ensaio com um de seus membros**, seguindo todo o roteiro, para verificar:
+
+- se as tarefas e os critérios de sucesso estão **claros**;
+- se a **gravação** de tela e áudio funciona;
+- se a soma dos tempos cabe na duração prevista (seção 2.4).
+
+!!! info "Uso do tempo do ensaio"
+    O tempo obtido em cada tarefa passa a ser o **tempo de referência**. Como o membro já conhece o caminho esperado, esse tempo representa o desempenho de **quem conhece o site** e **não é uma meta para o participante**. Ele serve de **base para definir o tempo-limite** e de **parâmetro na análise dos resultados**.
+
+---
+
+## 9. Registros
+
+### 9.1 Registro Think Aloud (por tarefa)
 
 | Tempo | Ação realizada | O que o participante falou | Observação do moderador |
 | :--- | :--- | :--- | :--- |
-| 00:35 | Abriu o menu superior | "Achei que o cadastro estaria aqui." | Hesitou por cerca de 8 segundos |
-| 01:10 | Clicou em "Benefícios" | "Não sei o que é ICMS." | Expressão de dúvida |
-| 02:05 | Rolou a página | "Não vejo o prazo." | Mudança de estratégia |
+| | | | |
 
-*(Os exemplos acima são ilustrativos. Registre as falas reais.)*
+### 9.2 Resultado por tarefa
 
----
+| Tarefa | Resultado | Tempo gasto | Tempo de referência | Nº de erros | Eventos críticos |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| 1 | | | | | |
+| 2 | | | | | |
+| 3 | | | | | |
+| 4 | | | | | |
+| 5 | | | | | |
 
-## Registro de resultados por tarefa
-
-| Tarefa | Resultado (sucesso / com dificuldade / falha) | Tempo | Nº de erros | Nota de facilidade (1 a 5) |
-| :--- | :---: | :---: | :---: | :---: |
-| 1 – Entender o programa | | | | |
-| 2 – Cadastrar-se | | | | |
-| 3 – Consultar créditos | | | | |
-| 4 – Usar os créditos | | | | |
-| 5 – Verificar sorteios | | | | |
-| 6 – Pedir ajuda | | | | |
-| 7 – Acessibilidade | | | | |
-
-Após cada tarefa, pergunte: ***"De 1 (muito difícil) a 5 (muito fácil), como foi realizar essa tarefa?"***
-
----
-
-## Registro de Comportamentos
-
-Durante todo o teste, marque:
-
-| Comportamento | Sim | Não |
-| :--- | :---: | :---: |
-| Demonstrou confiança | <input type="checkbox"> | <input type="checkbox"> |
-| Demonstrou frustração | <input type="checkbox"> | <input type="checkbox"> |
-| Precisou voltar várias páginas | <input type="checkbox"> | <input type="checkbox"> |
-| Mudou de estratégia | <input type="checkbox"> | <input type="checkbox"> |
-| Demorou para decidir | <input type="checkbox"> | <input type="checkbox"> |
-| Ficou em silêncio por muito tempo | <input type="checkbox"> | <input type="checkbox"> |
-| Expressou satisfação | <input type="checkbox"> | <input type="checkbox"> |
-| Demonstrou surpresa | <input type="checkbox"> | <input type="checkbox"> |
-| Tentou clicar em elemento não clicável | <input type="checkbox"> | <input type="checkbox"> |
-| Hesitou ao fornecer dados pessoais | <input type="checkbox"> | <input type="checkbox"> |
-| Não compreendeu um termo técnico | <input type="checkbox"> | <input type="checkbox"> |
-
----
-
-## Avaliação das Heurísticas de Nielsen
-
-Após cada tarefa, avalie:
+### 9.3 Heurísticas de Nielsen (análise posterior)
 
 | Heurística | Evidências encontradas |
 | :--- | :--- |
@@ -336,23 +307,3 @@ Após cada tarefa, avalie:
 | Design estético e minimalista | |
 | Ajuda na recuperação de erros | |
 | Ajuda e documentação | |
-
----
-
-## Encerramento
-
-Ao final do teste, conduza uma **entrevista semiestruturada** para explorar a experiência do participante:
-
-1. Como você descreveria sua experiência geral utilizando o site?
-2. Em algum momento você se sentiu perdido? O que aconteceu?
-3. Houve alguma funcionalidade que não funcionou como você esperava?
-4. Qual tarefa foi a mais fácil? Por quê?
-5. Qual foi a mais difícil? Por quê?
-6. Alguma informação ou termo utilizado no site gerou confusão?
-7. O que você mudaria primeiro se pudesse melhorar esse site?
-8. Você se sentiria seguro em informar seus dados pessoais nesse site? Explique sua resposta.
-9. Depois de usar o site, você participaria do programa? Por quê?
-10. Em uma escala de 1 a 5, como você avalia a facilidade de uso do site? Justifique sua nota.
-
-!!! tip "Dica metodológica"
-    Para enriquecer a análise do trabalho, registre também **eventos críticos** (*Critical Incidents*): momentos em que o participante demonstra forte satisfação, frustração, surpresa ou erro. Esses episódios costumam revelar problemas de usabilidade mais relevantes do que métricas isoladas de tempo ou número de cliques e servem como evidências qualitativas para relacionar os resultados às **heurísticas de Nielsen** e aos critérios de acessibilidade do checklist.
