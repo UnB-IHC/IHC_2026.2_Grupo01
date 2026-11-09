@@ -1,11 +1,11 @@
-#O que são Jornadas em IHC?
+# O que são Jornadas em IHC?
 Em Interação Humano-Computador (IHC), jornada (ou jornada do usuário, user journey) é a sequência de etapas, ações, pensamentos e emoções pelas quais uma pessoa passa ao tentar atingir um objetivo usando um produto, sistema ou serviço, do primeiro contato até a conclusão da tarefa (e, muitas vezes, depois dela).
 
-##Ideia central
+## Ideia central
 
 Em vez de olhar para uma tela ou funcionalidade isolada, a jornada olha para a experiência completa ao longo do tempo. Por exemplo, a jornada de alguém que quer pedir comida por um aplicativo inclui: descobrir o app, instalar, criar conta, escolher o restaurante, montar o pedido, pagar, acompanhar a entrega, receber e avaliar.
 
-##O que costuma compor uma jornada
+## O que costuma compor uma jornada
 Persona ou usuário: quem vive a jornada.
 Objetivo: o que a pessoa quer alcançar.
 Etapas: fases do processo (ex.: descoberta, consideração, uso, suporte).
@@ -26,10 +26,10 @@ Jornada x fluxo de usuário
 Fluxo de usuário (user flow): foca nos caminhos e decisões dentro do sistema (telas, cliques, condições).
 Jornada: tem escopo mais amplo, incluindo o contexto, os sentimentos e os momentos fora do sistema.
 
-#Jornadas no Nota Legal
+# Jornadas no Nota Legal
 As seguintes jornadas foram elaboradas considerando as personas propostas no capítulo anterior.
 
-##Jornada 1: Maria das Graças (persona primária)
+## Jornada 1: Maria das Graças (persona primária)
 
 Objetivo: consultar o saldo de pontos e abater o valor do IPVA do carro.
 Contexto: acessa pelo celular, em casa, duas vezes ao ano, geralmente perto do vencimento do IPVA.
@@ -46,7 +46,7 @@ Etapa	Ações	Pensamentos	Emoção	Dores	Oportunidades
 Resumo emocional: começa neutra, cai nas etapas de login e entendimento do saldo e se recupera ao receber a confirmação.
 Prioridades de design: letras grandes, vocabulário simples, saldo em destaque, fluxo guiado, ajuda contextual.
 
-##Jornada 2: Lucas Ferreira (persona primária)
+## Jornada 2: Lucas Ferreira (persona primária)
 
 Objetivo: consultar pontos, indicar crédito para o IPTU e conferir se os estabelecimentos onde comprou estão cadastrados.
 Contexto: acessa pelo celular (modo mobile), com pressa, de forma autônoma.
@@ -63,7 +63,7 @@ Etapa	Ações	Pensamentos	Emoção	Dores	Oportunidades
 Resumo emocional: relativamente estável. A irritação surge com lentidão, travamentos e dados repetidos.
 Prioridades de design: agilidade, mobile-first, pré-preenchimento, poucos cliques, estabilidade.
 
-##Jornada 3: Seu Joaquim (persona secundária, acessibilidade)
+## Jornada 3: Seu Joaquim (persona secundária, acessibilidade)
 
 Objetivo: consultar a quantidade de pontos.
 Contexto: tenta em casa, com ajuda eventual dos netos, e acaba recorrendo ao atendimento presencial.
@@ -80,7 +80,7 @@ Etapa	Ações	Pensamentos	Emoção	Dores	Oportunidades
 Resumo emocional: curva descendente até a desistência e leve recuperação só no atendimento presencial.
 Prioridades de design: acessibilidade (contraste, fonte ajustável, teclado, leitor de tela), fluxo mínimo e canais alternativos.
 
-Comparativo rápido
+## Comparativo rápido
 	Maria	Lucas	Joaquim
 Maior barreira	Linguagem técnica e insegurança	Lentidão e dados repetidos	Acessibilidade
 Momento crítico	Entender o saldo	Indicar o crédito	Navegar e fazer login
