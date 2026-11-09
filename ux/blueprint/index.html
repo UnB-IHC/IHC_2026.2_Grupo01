@@ -77,6 +77,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#o-que-e-blueprints-em-ihc" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -873,6 +878,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blueprint
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -890,6 +915,47 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#estrutura-basica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Estrutura básica
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#para-que-serve" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Para que serve
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1058,6 +1124,38 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#estrutura-basica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Estrutura básica
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#para-que-serve" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Para que serve
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1074,9 +1172,71 @@
 
 
 
-  <h1>Blueprint</h1>
-
-
+<h1 id="o-que-e-blueprints-em-ihc">O que é Blueprints em IHC?</h1>
+<p>Em IHC e design de serviços, o blueprint (ou service blueprint, “planta de serviço”) é um diagrama que mapeia como um serviço funciona de ponta a ponta, mostrando não só o que o usuário vê e faz, mas também tudo o que acontece “por trás dos panos” para que aquela experiência seja possível.</p>
+<p>Se o mapa de jornada mostra a experiência do usuário, o blueprint mostra a operação que sustenta essa experiência.</p>
+<h2 id="estrutura-basica">Estrutura básica</h2>
+<p>O blueprint é organizado em camadas horizontais, separadas por linhas:</p>
+<table>
+<thead>
+<tr>
+<th>Camada</th>
+<th>O que representa</th>
+<th>Exemplo (Nota Legal)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Evidências físicas / digitais</td>
+<td>O que o usuário vê e toca</td>
+<td>Tela de login, saldo, comprovante em PDF</td>
+</tr>
+<tr>
+<td>Ações do usuário</td>
+<td>O que a pessoa faz em cada etapa</td>
+<td>Digita CPF, escolhe o veículo, confirma abatimento</td>
+</tr>
+<tr>
+<td>Linha de interação</td>
+<td>Fronteira entre usuário e serviço</td>
+<td></td>
+</tr>
+<tr>
+<td>Ações de linha de frente (frontstage)</td>
+<td>O que o usuário percebe do serviço</td>
+<td>Interface exibe saldo, atendente no posto ajuda</td>
+</tr>
+<tr>
+<td>Linha de visibilidade</td>
+<td>Separa o visível do invisível</td>
+<td></td>
+</tr>
+<tr>
+<td>Ações de bastidor (backstage)</td>
+<td>O que ocorre sem o usuário ver</td>
+<td>Sistema valida CPF, calcula pontos, envia dados à Sefaz</td>
+</tr>
+<tr>
+<td>Linha de interação interna</td>
+<td>Fronteira entre equipe e sistemas de apoio</td>
+<td></td>
+</tr>
+<tr>
+<td>Processos de apoio</td>
+<td>Sistemas, equipes e parceiros envolvidos</td>
+<td>Base de notas fiscais, bancos de dados, central de atendimento, órgão responsável pelo IPVA</td>
+</tr>
+</tbody>
+</table>
+<p>Muitas vezes se acrescenta uma camada de tempo/etapas no topo, alinhada à jornada do usuário.</p>
+<h2 id="para-que-serve">Para que serve</h2>
+<ul>
+<li>identificar falhas operacionais que causam frustrações na jornada (ex.: nota fiscal que demora a aparecer porque a integração com o estabelecimento é lenta);</li>
+<li>revelar dependências entre sistemas, setores e parceiros;</li>
+<li>apontar gargalos, redundâncias e pontos de falha;</li>
+<li>alinhar equipes (design, TI, atendimento, gestão) sobre quem é responsável por cada parte;</li>
+<li>planejar melhorias que resolvam a causa e não só o sintoma.</li>
+</ul>
 
 
 
