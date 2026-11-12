@@ -329,6 +329,6 @@ Entregue o questionário *System Usability Scale* (SUS) logo após a última tar
 | 9 | Eu me senti confiante ao usar o sistema. | 5 |
 | 10 | Eu precisaria aprender várias coisas novas antes de conseguir usar o sistema. | 1 |
 
-Resultado: (4-1)+(5-1)+(5-1)+(5-1)+(5-1)+(5-1)+(5-1)+(5-1)+(5-1)+(5-1) == 3 + 4*9 == 3 + 36 == 39
+Resultado: ((4-1)+(5-1)+(5-1)+(5-1)+(5-1)+(5-1)+(5-1)+(5-1)+(5-1)+(5-1))*2.5 == (3 + 4*9)*2.5 == (39)*2.5 == 97.5
 
-O resultado do SUS foi **39**.
+O resultado do SUS foi **97.5**.
