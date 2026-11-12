@@ -39,5 +39,8 @@ Mais do que uma referência teórica para a disciplina, o guia serve como um ins
   <a class="membro" href="https://github.com/RobdobFilho">
     <img src="https://github.com/RobdobFilho.png" alt="Roberto Filho">
     <span>Roberto Filho</span>
+  <a class="membro" href="https://github.com/CauaoClemente">
+    <img src="https://github.com/CauaoClemente.png" alt="Cauã Clemente">
+    <span>Cauã Clemente (222006623)</span>
   </a>
 </div>
