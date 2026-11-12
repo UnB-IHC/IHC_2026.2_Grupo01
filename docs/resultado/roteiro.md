@@ -132,9 +132,6 @@ Cada tarefa é apresentada como **cenário**, sem citar nomes de menus, botões 
 | **Ponto de partida** | Página inicial do site. |
 | **Critério de sucesso** | Informar que os créditos podem abater **IPTU e IPVA** (os dois). |
 | **Caminho esperado** | Página inicial → página de **Benefícios** → seção de abatimento de impostos. |
-| **Tempo de referência** | *(preencher no ensaio)* |
-| **Tempo-limite** | *(definir após o ensaio)* |
-| **Justificativa do limite** | *(complexidade da tarefa e tempo de referência)* |
 
 ---
 
@@ -149,9 +146,6 @@ Cada tarefa é apresentada como **cenário**, sem citar nomes de menus, botões 
 | **Ponto de partida** | Página inicial do site. |
 | **Critério de sucesso** | Chegar à tela de cadastro (formulário ou etapa que solicita os dados) **sem preencher nem enviar nada**. |
 | **Caminho esperado** | Página inicial → botão de cadastro ("Quero me cadastrar!") → tela de cadastro. |
-| **Tempo de referência** | *(preencher no ensaio)* |
-| **Tempo-limite** | *(definir após o ensaio)* |
-| **Justificativa do limite** | *(complexidade da tarefa e tempo de referência)* |
 
 !!! warning "Moderador"
     Se o participante começar a digitar dados reais, interrompa com gentileza e encerre a tarefa como concluída.
@@ -169,9 +163,6 @@ Cada tarefa é apresentada como **cenário**, sem citar nomes de menus, botões 
 | **Ponto de partida** | Página inicial do site. |
 | **Critério de sucesso** | Informar **a data** e **o valor total de prêmios** do próximo sorteio, conforme publicado no site. *(O grupo anota os valores corretos antes de cada sessão.)* |
 | **Caminho esperado** | Página inicial → área de **Sorteios** → informações do sorteio vigente. |
-| **Tempo de referência** | *(preencher no ensaio)* |
-| **Tempo-limite** | *(definir após o ensaio)* |
-| **Justificativa do limite** | *(complexidade da tarefa e tempo de referência)* |
 
 ---
 
@@ -186,9 +177,6 @@ Cada tarefa é apresentada como **cenário**, sem citar nomes de menus, botões 
 | **Ponto de partida** | Página inicial do site. |
 | **Critério de sucesso** | Informar o **saldo mínimo** e o **período de indicação da conta**, conforme o site. *(O grupo confere os valores vigentes antes da sessão.)* |
 | **Caminho esperado** | Página inicial → página de **Benefícios** → seção de depósito em conta bancária. |
-| **Tempo de referência** | *(preencher no ensaio)* |
-| **Tempo-limite** | *(definir após o ensaio)* |
-| **Justificativa do limite** | *(complexidade da tarefa e tempo de referência)* |
 
 ---
 
@@ -203,9 +191,6 @@ Cada tarefa é apresentada como **cenário**, sem citar nomes de menus, botões 
 | **Ponto de partida** | Página inicial do site. |
 | **Critério de sucesso** | Encontrar **pelo menos um canal de atendimento** oficial (telefone, atendimento virtual ou perguntas frequentes). |
 | **Caminho esperado** | Página inicial → área de atendimento, dúvidas ou rodapé → canais de contato. |
-| **Tempo de referência** | *(preencher no ensaio)* |
-| **Tempo-limite** | *(definir após o ensaio)* |
-| **Justificativa do limite** | *(complexidade da tarefa e tempo de referência)* |
 
 ---
 
@@ -213,12 +198,11 @@ Cada tarefa é apresentada como **cenário**, sem citar nomes de menus, botões 
 
 | Tarefa | Tempo de referência (ensaio) | Tempo-limite | Justificativa |
 | :--- | :---: | :---: | :--- |
-| 1 – Usar os créditos | | | |
-| 2 – Iniciar o cadastro | | | |
-| 3 – Próximo sorteio | | | |
-| 4 – Receber em dinheiro | | | |
-| 5 – Pedir ajuda | | | |
-| **Soma dos limites** | | **≤ 25 min** | |
+| 1 – Usar os créditos | 1:00| 1:00| Essa informação fica em Benefícios, constam dois cartões acerca do IPTU e IPVA.|
+| 2 – Iniciar o cadastro | 0:05| 1:00| O botão de cadastro é bem destacado na página inicial.|
+| 3 – Próximo sorteio | 0:15| 1:00|Para saber do próximo sorteio, basta clicar em Sorteio, no painél superior. |
+| 4 – Receber em dinheiro | 1:00| 1:00|Essa informação fica em Benefícios, mas não vi na primeira vez. |
+| 5 – Pedir ajuda | 0:50| 0:50| O contato de atendimento fica no fundo do site. Contudo, o botão de Atendimento Virtual redireciona para fora do site.|
 
 ---
 
@@ -291,10 +275,10 @@ Antes de iniciar as sessões, o grupo realiza um **ensaio com um de seus membros
 
 | Tarefa | Resultado | Tempo gasto | Tempo de referência | Nº de erros | Eventos críticos |
 | :--- | :---: | :---: | :---: | :---: | :--- |
-| 1 |Sucesso sem ajuda |0:47 | 1:00| 1| Saiu do site, embora tenha encontrado a informação requerida.|
-| 2 |Sucesso sem ajuda |0:35 | 0:05| 1| Não viu o botão de cadastro a princípio|
+| 1 |Sucesso com dificuldade |0:47 | 1:00| 1| Saiu do site, embora tenha encontrado a informação requerida.|
+| 2 |Sucesso com dificuldade |0:35 | 0:05| 1| Não viu o botão de cadastro a princípio|
 | 3 |Sucesso sem ajuda |0:18 | 0:15| 0| |
-| 4 |Sucesso sem ajuda |0:10 | 4:30| 0| |
+| 4 |Sucesso sem ajuda |0:10 | 0:30| 0| |
 | 5 |Sucesso sem ajuda |0:08 | 0:50| 0| |
 
 ### 9.3 Heurísticas de Nielsen (análise posterior)
