@@ -281,29 +281,54 @@ Antes de iniciar as sessões, o grupo realiza um **ensaio com um de seus membros
 
 | Tempo | Ação realizada | O que o participante falou | Observação do moderador |
 | :--- | :--- | :--- | :--- |
-| | | | |
+|0:47 |Descobrir quais impostos o Nota Legal aplica descontos. |"É em 'perguntas frequentes'?" |A entrevistada saiu do site original, mas ainda encontrou a informação requerida. |
+|0:35 |Criar cadastro. |"É em 'sorteios'?" |A entrevistada não encontrou o botão grande de cadastro à primeira vista. | 
+|0:18 |Descobrir quando é o próximo sorteio. |"É em 'sorteios'." |Clicou corretamente em 'Sorteios'. |
+|0:10 |Descobrir o saldo mínimo para receber os créditos em depósito. |Nada. |Clicou corretamente em 'Benefícios' |
+|0:08 |Descrobrir como falar com o atendimento. |Nada. |Rolou corretamente até o fundo da página. |
 
 ### 9.2 Resultado por tarefa
 
 | Tarefa | Resultado | Tempo gasto | Tempo de referência | Nº de erros | Eventos críticos |
 | :--- | :---: | :---: | :---: | :---: | :--- |
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1 |Sucesso sem ajuda |0:47 | 1:00| 1| Saiu do site, embora tenha encontrado a informação requerida.|
+| 2 |Sucesso sem ajuda |0:35 | 0:05| 1| Não viu o botão de cadastro a princípio|
+| 3 |Sucesso sem ajuda |0:18 | 0:15| 0| |
+| 4 |Sucesso sem ajuda |0:10 | 4:30| 0| |
+| 5 |Sucesso sem ajuda |0:08 | 0:50| 0| |
 
 ### 9.3 Heurísticas de Nielsen (análise posterior)
 
 | Heurística | Evidências encontradas |
 | :--- | :--- |
-| Visibilidade do status do sistema | |
-| Correspondência entre sistema e mundo real | |
-| Controle e liberdade do usuário | |
-| Consistência e padrões | |
-| Prevenção de erros | |
-| Reconhecimento em vez de memorização | |
-| Flexibilidade e eficiência | |
-| Design estético e minimalista | |
-| Ajuda na recuperação de erros | |
-| Ajuda e documentação | |
+| Visibilidade do status do sistema | Como o site é estatico, não há 'status' para analisar.|
+| Correspondência entre sistema e mundo real | Os editais publicados são os mais recentes.|
+| Controle e liberdade do usuário | Não há bloqueios ao obter informações no site.|
+| Consistência e padrões | O site é padronizado, mas leva a domínios exteriores com estilos diferentes.|
+| Prevenção de erros | A barra superior some ao rolar para baixo, e isso fez com que a entrevistada se perdesse.|
+| Reconhecimento em vez de memorização | Os botões são todos indicados em verde, e o texto sobre fundo branco.|
+| Flexibilidade e eficiência | O site é eficiente em prover as informações requeridas.|
+| Design estético e minimalista | O design é bastante minimalista, embora o ícone pudesse ser melhor.|
+| Ajuda na recuperação de erros | Não acho que houve ajuda desse tipo, mas não foi grave.|
+| Ajuda e documentação | O site documenta bem os seus editais, apresenta sua informação de forma coerente.|
+
+### 9.4. Respostas do SUS
+
+Entregue o questionário *System Usability Scale* (SUS) logo após a última tarefa. Para cada afirmação, o participante marca de **1 (discordo totalmente)** a **5 (concordo totalmente)**.
+
+| Nº | Afirmação | Pontuação dada |
+| :---: | :--- | :---: |
+| 1 | Eu acho que gostaria de usar esse sistema com frequência. | 4 |
+| 2 | Eu achei o sistema desnecessariamente complexo. | 1 |
+| 3 | Eu achei o sistema fácil de usar. | 5 |
+| 4 | Eu acho que precisaria de ajuda de uma pessoa com conhecimentos técnicos para usar o sistema. | 1 |
+| 5 | Eu acho que as várias funções do sistema estão muito bem integradas. | 5 |
+| 6 | Eu acho que o sistema apresenta muita inconsistência. | 1 |
+| 7 | Eu imagino que as pessoas aprenderão como usar esse sistema rapidamente. | 5 |
+| 8 | Eu achei o sistema atrapalhado de usar. | 1 |
+| 9 | Eu me senti confiante ao usar o sistema. | 5 |
+| 10 | Eu precisaria aprender várias coisas novas antes de conseguir usar o sistema. | 1 |
+
+Resultado: (4-1)+(5-1)+(5-1)+(5-1)+(5-1)+(5-1)+(5-1)+(5-1)+(5-1)+(5-1) == 3 + 4*9 == 3 + 36 == 39
+
+O resultado do SUS foi **39**.
