@@ -18,7 +18,7 @@ O projeto foi desenvolvido no âmbito da disciplina de Interação Humano-Comput
     <td align="center"><a href="https://github.com/laurarogelin"><img style="border-radius: 50%;" src="https://github.com/laurarogelin.png" width="100px;" alt=""/><br /><sub><b>Laura Rogelin</b></sub></a><br />
     <td align="center"><a href="https://github.com/prietum"><img style="border-radius: 50%;" src="https://github.com/prietum.png" width="100px;" alt=""/><br /><sub><b>Pietro Ritchele</b></sub></a><br />
     <td align="center"><a href="https://github.com/RobdobFilho"><img style="border-radius: 50%;" src="https://github.com/RobdobFilho.png" width="100px;" alt=""/><br /><sub><b>Roberto Filho</b></sub></a><br />
-    <td align="center"><a href="https://github.com/CauaoClemente"><img style="border-radius: 50%;" src="https://github.com/CauaoClemente.png" width="100px;" alt=""/><br /><sub><b>Cauã Clemente (222006623)</b></sub></a><br />
+    <td align="center"><a href="https://github.com/CauaoClemente"><img style="border-radius: 50%;" src="https://github.com/CauaoClemente.png" width="100px;" alt=""/><br /><sub><b>Cauã Clemente </b></sub></a><br />
   </tr>
 </table>
 
