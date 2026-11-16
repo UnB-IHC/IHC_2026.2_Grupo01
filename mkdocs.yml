@@ -81,3 +81,4 @@ extra_css:
 
 extra_javascript:
   - js/progress.js
+  - js/rotulos.js

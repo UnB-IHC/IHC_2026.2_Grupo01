@@ -60,7 +60,7 @@ Mais do que uma referência teórica para a disciplina, o guia serve como um ins
   </a>
   <a class="membro" href="https://github.com/CauaoClemente">
     <img src="https://github.com/CauaoClemente.png" alt="Foto de Cauã Clemente">
-    <span>Cauã Clemente (222006623)</span>
+    <span>Cauã Clemente</span>
   </a>
   <a class="membro" href="https://github.com/auslogyc">
     <img src="https://github.com/auslogyc.png" alt="Foto de Danilo Barros">

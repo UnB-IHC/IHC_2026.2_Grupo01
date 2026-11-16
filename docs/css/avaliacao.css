@@ -38,3 +38,36 @@
 @media screen and (max-width: 700px) {
   .destaques, .colunas { grid-template-columns: 1fr; }
 }
+
+.duas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.8rem;
+  margin: 1.2em 0;
+}
+.duas > div {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.4rem;
+  padding: 0.2rem 1rem 0.6rem;
+}
+@media screen and (max-width: 700px) {
+  .duas { grid-template-columns: 1fr; }
+}
+
+/* Contraste: realce de código no tema claro (fundo rosa) e links no tema escuro */
+[data-md-color-scheme="default"] {
+  --md-code-hl-keyword-color: #2c4f9e;
+  --md-code-hl-name-color: #2c4f9e;
+  --md-code-hl-function-color: #5a3fb0;
+  --md-code-hl-special-color: #5a3fb0;
+  --md-code-hl-string-color: #1a6b3f;
+  --md-code-hl-number-color: #a3262a;
+  --md-code-hl-constant-color: #a3262a;
+  --md-code-hl-comment-color: #6b5f66;
+}
+[data-md-color-scheme="slate"] {
+  --md-typeset-a-color: #a5b0ff;
+}
+[data-md-color-scheme="slate"] .destaques > div > p:first-child {
+  color: #a5b0ff;
+}

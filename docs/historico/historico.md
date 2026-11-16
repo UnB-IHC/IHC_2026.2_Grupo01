@@ -6,6 +6,28 @@ O versionamento segue o formato `MAJOR.MINOR.PATCH` e as datas usam o padrão `A
 
 ## Versões
 
+### [1.8.0] – 2026-11-16 — Fundamentos de UX aplicados ao Nota Legal e revisão de acessibilidade do próprio site
+
+Atualização *minor* que liga as páginas de fundamentos de UX aos resultados da avaliação e revisa a acessibilidade do próprio guia.
+
+#### Adicionado
+- **Blueprint do Nota Legal** (`ux/blueprint.md`): três jornadas (cadastrar-se, consultar sorteios e corrigir um erro), com evidências da inspeção e do teste.
+- **Canvas de proposta de valor do Nota Legal** (`ux/canvas.md`): perfil do usuário, mapa de valor e análise de encaixe.
+- **Personas e avaliação** (`ux/personas.md`): barreiras encontradas e correções que mais ajudam cada persona.
+- **Ferramentas** (`referencias/referencias.md`): ANDI e uma seção sobre como cada ferramenta foi usada no Nota Legal.
+
+#### Alterado
+- **README**: descrição atualizada do projeto, link para o site, instruções para rodar localmente e tabela da equipe corrigida.
+- **Página inicial**: nomes da equipe padronizados, sem matrícula.
+
+#### Corrigido
+- **Contraste**: cores do realce de código no tema claro e dos links no tema escuro ajustadas para atingir 4,5:1.
+- **Hierarquia de títulos**: os checklists de Conteúdo, Desenvolvimento e Design deixaram de pular do título principal direto para o nível 3.
+- **Título do checklist de Desenvolvimento**: corrigido o erro de digitação.
+- **Arquivos antigos removidos**: cópias do tema em `docs/assets/javascripts` e `docs/assets/stylesheets`, índice de busca desatualizado em `docs/search` e um logo de outro projeto.
+
+---
+
 ### [1.7.0] – 2026-11-16 — Inspeção do Nota Legal e alinhamento com a apresentação
 
 Atualização *minor* que traz para o site a avaliação por inspeção do Nota Legal e deixa todas as páginas coerentes com a apresentação final.
