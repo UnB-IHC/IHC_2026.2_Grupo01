@@ -53,6 +53,8 @@
     
       <link rel="stylesheet" href="../../css/custom.css">
     
+      <link rel="stylesheet" href="../../css/avaliacao.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -250,11 +252,11 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../resultado/roteiro/" class="md-tabs__link">
+        <a href="../../resultado/inspecao/" class="md-tabs__link">
           
   
   
-  Avaliação de Usuário
+  Avaliação do Nota Legal
 
         </a>
       </li>
@@ -641,7 +643,7 @@
   <span class="md-ellipsis">
     
   
-    Avaliação de Usuário
+    Avaliação do Nota Legal
   
 
     
@@ -657,11 +659,39 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Avaliação de Usuário
+    Avaliação do Nota Legal
   
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resultado/inspecao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inspeção do Nota Legal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -677,7 +707,7 @@
   <span class="md-ellipsis">
     
   
-    Roteiro de Avaliação
+    Roteiro do Teste com Usuário
   
 
     
@@ -705,7 +735,35 @@
   <span class="md-ellipsis">
     
   
-    Resultados da Avaliação
+    Resultados do Teste com Usuário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resultado/conclusao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recomendações e Conclusão
   
 
     
@@ -953,6 +1011,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#blueprint-do-nota-legal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Blueprint do Nota Legal
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1155,6 +1224,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#blueprint-do-nota-legal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Blueprint do Nota Legal
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1237,6 +1317,57 @@
 <li>alinhar equipes (design, TI, atendimento, gestão) sobre quem é responsável por cada parte;</li>
 <li>planejar melhorias que resolvam a causa e não só o sintoma.</li>
 </ul>
+<h2 id="blueprint-do-nota-legal">Blueprint do Nota Legal</h2>
+<p>Aplicamos o blueprint a três jornadas que a <a href="../../resultado/inspecao/">inspeção</a> e o <a href="../../resultado/resultados_avaliacao/">teste com usuário</a> cobriram. A linha de <strong>backstage</strong> traz hipóteses da equipe, porque a avaliação só enxerga a parte pública do portal.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Camada</th>
+<th style="text-align: left;">Cadastrar-se</th>
+<th style="text-align: left;">Consultar sorteios</th>
+<th style="text-align: left;">Corrigir um erro de preenchimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Ação do usuário</strong></td>
+<td style="text-align: left;">Procura o cadastro e preenche o formulário</td>
+<td style="text-align: left;">Acessa a página de Sorteios pelo menu</td>
+<td style="text-align: left;">Digita uma data em formato errado</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Frontstage (o que vê)</strong></td>
+<td style="text-align: left;">Botão "Quero me cadastrar!" e etapas indicadas ("Passo 2 de 5")</td>
+<td style="text-align: left;">Banners com texto alternativo "Banner 1" e links como "página 1194"</td>
+<td style="text-align: left;">Mensagem "data inválida", sem o formato esperado</td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>Linha de visibilidade</em></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Backstage (hipótese)</strong></td>
+<td style="text-align: left;">Validação do CPF e dos dados informados</td>
+<td style="text-align: left;">Páginas publicadas no portal e identificadas por número</td>
+<td style="text-align: left;">Validação do campo sem sugestão de correção</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Evidência</strong></td>
+<td style="text-align: left;">Teste: o botão de cadastro não foi percebido de primeira (tarefa 2)</td>
+<td style="text-align: left;">Inspeção: WCAG 1.1.1 e 2.4.4</td>
+<td style="text-align: left;">Inspeção: WCAG 3.3.3 e Heurística 9</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Oportunidade</strong></td>
+<td style="text-align: left;">Destacar o botão de cadastro e indicar a etapa em todo o site</td>
+<td style="text-align: left;">Texto alternativo descritivo e links com o nome do destino</td>
+<td style="text-align: left;">Sugerir o formato: "Use DD/MM/AAAA"</td>
+</tr>
+</tbody>
+</table>
+<p>As oportunidades acima entram nas <a href="../../resultado/conclusao/">recomendações priorizadas</a> do trabalho.</p>
 
 
 
@@ -1340,6 +1471,8 @@
       <script src="../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
         <script src="../../js/progress.js"></script>
+      
+        <script src="../../js/rotulos.js"></script>
       
     
   </body>

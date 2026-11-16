@@ -53,6 +53,8 @@
     
       <link rel="stylesheet" href="../../css/custom.css">
     
+      <link rel="stylesheet" href="../../css/avaliacao.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -250,11 +252,11 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../resultado/roteiro/" class="md-tabs__link">
+        <a href="../../resultado/inspecao/" class="md-tabs__link">
           
   
   
-  Avaliação de Usuário
+  Avaliação do Nota Legal
 
         </a>
       </li>
@@ -641,7 +643,7 @@
   <span class="md-ellipsis">
     
   
-    Avaliação de Usuário
+    Avaliação do Nota Legal
   
 
     
@@ -657,11 +659,39 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Avaliação de Usuário
+    Avaliação do Nota Legal
   
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resultado/inspecao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inspeção do Nota Legal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -677,7 +707,7 @@
   <span class="md-ellipsis">
     
   
-    Roteiro de Avaliação
+    Roteiro do Teste com Usuário
   
 
     
@@ -705,7 +735,35 @@
   <span class="md-ellipsis">
     
   
-    Resultados da Avaliação
+    Resultados do Teste com Usuário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resultado/conclusao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recomendações e Conclusão
   
 
     
@@ -1057,6 +1115,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#andi-accessible-name-description-inspector" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ANDI — Accessible Name &amp; Description Inspector
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#axe-core-biblioteca-de-testes-automatizados-de-acessibilidade" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1105,6 +1174,17 @@
     <span class="md-ellipsis">
       
         Leitores de tela (NVDA, VoiceOver e Orca)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-usamos-as-ferramentas-no-nota-legal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Como usamos as ferramentas no Nota Legal
       
     </span>
   </a>
@@ -1184,6 +1264,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#andi-accessible-name-description-inspector" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ANDI — Accessible Name &amp; Description Inspector
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#axe-core-biblioteca-de-testes-automatizados-de-acessibilidade" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1238,6 +1329,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#como-usamos-as-ferramentas-no-nota-legal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Como usamos as ferramentas no Nota Legal
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1269,6 +1371,9 @@ componentes e de objetos gráficos, e no uso de informação que não dependa ap
 cor. Apoia o checklist de <strong>Conteúdo</strong> na conferência de textos alternativos em
 imagens e na hierarquia de títulos. Apoia o checklist de <strong>Desenvolvimento</strong> na
 identificação de regiões, listas, links e rótulos de formulário.</p>
+<h2 id="andi-accessible-name-description-inspector"><a href="https://www.ssa.gov/accessibility/andi/help/install.html">ANDI — Accessible Name &amp; Description Inspector</a></h2>
+<p>Ferramenta gratuita, usada direto no navegador, que mostra como as tecnologias assistivas leem cada elemento: o nome acessível, a descrição, a ordem de tabulação e quais elementos recebem foco.</p>
+<p>Apoia o checklist de <strong>Desenvolvimento</strong> na verificação da navegação por teclado, da ordem de foco e dos nomes de botões, links e campos. Apoia o checklist de <strong>Conteúdo</strong> ao mostrar o texto alternativo que chega ao leitor de tela.</p>
 <h2 id="axe-core-biblioteca-de-testes-automatizados-de-acessibilidade"><a href="https://github.com/dequelabs/axe-core">axe-core — biblioteca de testes automatizados de acessibilidade</a></h2>
 <p>Framework de auditoria automatizada amplamente usado na indústria. Detecta problemas
 relacionados às diretrizes de acessibilidade e pode ser integrado ao navegador, a
@@ -1306,6 +1411,36 @@ acompanha os sistemas da Apple e o Orca está disponível em distribuições Lin
 leitura de tabelas e formulários, anúncio de mudanças automáticas na página e ordem
 lógica de leitura das regiões. Apoiam o checklist de <strong>Conteúdo</strong> ao confirmar que
 textos alternativos, títulos e rótulos fazem sentido quando lidos em sequência.</p>
+<hr />
+<h2 id="como-usamos-as-ferramentas-no-nota-legal">Como usamos as ferramentas no Nota Legal</h2>
+<p>Na <a href="../../resultado/inspecao/">inspeção do Nota Legal</a>, combinamos três ferramentas automáticas com testes manuais.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Ferramenta</th>
+<th style="text-align: left;">O que mostrou no Nota Legal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>WAVE</strong></td>
+<td style="text-align: left;">Pontuação AIM de 7,9 em 10: 1 erro (atualização automática da página), 0 erros de contraste e 2 alertas.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>ANDI</strong></td>
+<td style="text-align: left;">36 elementos alcançáveis pelo Tab, sem o botão de Alto Contraste entre eles.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>axe DevTools</strong> (axe-core 4.10.3)</td>
+<td style="text-align: left;">8 problemas moderados e nenhum crítico: página sem h1, salto para h4, dois landmarks main e menus sem nome próprio.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Testes manuais</strong></td>
+<td style="text-align: left;">Navegação com Tab e Shift+Tab, zoom de 200% e uso no celular. Foi assim que apareceram o foco quase invisível, o carrossel sem pausa e o menu cortado no zoom.</td>
+</tr>
+</tbody>
+</table>
+<p>As ferramentas automáticas não detectaram os problemas mais graves (texto alternativo genérico, foco quase invisível e carrossel sem pausa). Eles só apareceram na inspeção manual, por isso recomendamos sempre combinar os dois.</p>
 
 
 
@@ -1409,6 +1544,8 @@ textos alternativos, títulos e rótulos fazem sentido quando lidos em sequênci
       <script src="../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
         <script src="../../js/progress.js"></script>
+      
+        <script src="../../js/rotulos.js"></script>
       
     
   </body>

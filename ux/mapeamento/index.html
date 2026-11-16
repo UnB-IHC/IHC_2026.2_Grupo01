@@ -53,6 +53,8 @@
     
       <link rel="stylesheet" href="../../css/custom.css">
     
+      <link rel="stylesheet" href="../../css/avaliacao.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -250,11 +252,11 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../resultado/roteiro/" class="md-tabs__link">
+        <a href="../../resultado/inspecao/" class="md-tabs__link">
           
   
   
-  Avaliação de Usuário
+  Avaliação do Nota Legal
 
         </a>
       </li>
@@ -641,7 +643,7 @@
   <span class="md-ellipsis">
     
   
-    Avaliação de Usuário
+    Avaliação do Nota Legal
   
 
     
@@ -657,11 +659,39 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Avaliação de Usuário
+    Avaliação do Nota Legal
   
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resultado/inspecao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inspeção do Nota Legal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -677,7 +707,7 @@
   <span class="md-ellipsis">
     
   
-    Roteiro de Avaliação
+    Roteiro do Teste com Usuário
   
 
     
@@ -705,7 +735,35 @@
   <span class="md-ellipsis">
     
   
-    Resultados da Avaliação
+    Resultados do Teste com Usuário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resultado/conclusao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recomendações e Conclusão
   
 
     
@@ -1262,9 +1320,10 @@
 <ul>
 <li><strong>Usabilidade e Carga Cognitiva:</strong> Gargalos na navegação primária afetam usuários com baixo letramento digital durante os períodos de indicação de créditos.</li>
 <li><strong>Acessibilidade Digital (NBR 17225 / WCAG 2.2):</strong></li>
-<li><strong>Contraste de Cores:</strong> Elementos do menu e botões secundários exigem ajuste nas razões de contraste para atender à especificação AA/AAA.</li>
-<li><strong>Leitores de Tela:</strong> Ausência de marcas estruturais (<code>ARIA landmarks</code>) adequadas nos formulários de busca e tabelas de extrato.</li>
+<li><strong>Foco e contraste:</strong> o WAVE não detectou erros de contraste de texto, mas o indicador de foco do teclado tem cor próxima à do fundo (WCAG 2.4.7).</li>
+<li><strong>Leitores de Tela:</strong> o axe apontou landmarks duplicados ou sem nome próprio, e os banners têm texto alternativo genérico (“Banner 1”).</li>
 </ul>
+<p>Os detalhes e as evidências estão na <a href="../../resultado/inspecao/">Inspeção do Nota Legal</a>.</p>
 <hr />
 <h2 id="4-historico-de-versoes">4. Histórico de Versões</h2>
 <table>
@@ -1388,6 +1447,8 @@
       <script src="../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
         <script src="../../js/progress.js"></script>
+      
+        <script src="../../js/rotulos.js"></script>
       
     
   </body>

@@ -53,6 +53,8 @@
     
       <link rel="stylesheet" href="../../css/custom.css">
     
+      <link rel="stylesheet" href="../../css/avaliacao.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -250,11 +252,11 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../resultado/roteiro/" class="md-tabs__link">
+        <a href="../../resultado/inspecao/" class="md-tabs__link">
           
   
   
-  Avaliação de Usuário
+  Avaliação do Nota Legal
 
         </a>
       </li>
@@ -641,7 +643,7 @@
   <span class="md-ellipsis">
     
   
-    Avaliação de Usuário
+    Avaliação do Nota Legal
   
 
     
@@ -657,11 +659,39 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Avaliação de Usuário
+    Avaliação do Nota Legal
   
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resultado/inspecao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inspeção do Nota Legal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -677,7 +707,7 @@
   <span class="md-ellipsis">
     
   
-    Roteiro de Avaliação
+    Roteiro do Teste com Usuário
   
 
     
@@ -705,7 +735,35 @@
   <span class="md-ellipsis">
     
   
-    Resultados da Avaliação
+    Resultados do Teste com Usuário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resultado/conclusao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recomendações e Conclusão
   
 
     
@@ -913,6 +971,17 @@
     <span class="md-ellipsis">
       
         Resumo do Elenco de Personas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#o-que-a-avaliacao-mostra-para-cada-persona" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        O que a avaliação mostra para cada persona
       
     </span>
   </a>
@@ -1199,6 +1268,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#o-que-a-avaliacao-mostra-para-cada-persona" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        O que a avaliação mostra para cada persona
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1281,6 +1361,36 @@
 </tr>
 </tbody>
 </table>
+<hr />
+<h2 id="o-que-a-avaliacao-mostra-para-cada-persona">O que a avaliação mostra para cada persona</h2>
+<p>A <a href="../../resultado/inspecao/">inspeção</a> e o <a href="../../resultado/resultados_avaliacao/">teste com usuário</a> atingem cada persona de um jeito diferente.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Persona</th>
+<th style="text-align: left;">Barreiras encontradas</th>
+<th style="text-align: left;">Correções que mais ajudam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Maria das Graças</strong></td>
+<td style="text-align: left;">No celular, imagens pequenas e tabelas apertadas; com zoom de 200%, o menu superior perde conteúdo; o erro "data inválida" não diz como corrigir.</td>
+<td style="text-align: left;">Mensagens de erro que orientam ("Use DD/MM/AAAA"); layout que se ajusta ao celular e ao zoom.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Lucas Ferreira</strong></td>
+<td style="text-align: left;">A barra superior some ao rolar; links como "página 1194" atrapalham quem quer ir direto ao ponto; as perguntas frequentes levam a outro domínio.</td>
+<td style="text-align: left;">Barra superior fixa e links com o nome do destino.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Seu Joaquim</strong></td>
+<td style="text-align: left;">Os banners dizem só "Banner 1" ao leitor de tela; o foco do teclado quase não aparece; o Alto Contraste não funciona pelo teclado; o carrossel não para.</td>
+<td style="text-align: left;">As três correções graves: imagens acessíveis, foco visível com Alto Contraste no teclado e carrossel com pausa.</td>
+</tr>
+</tbody>
+</table>
+<p>O Seu Joaquim, a persona com limitações de acessibilidade, é quem enfrenta as barreiras mais graves. Por isso o próximo passo do trabalho é testar com pessoas que usam leitor de tela ou só o teclado.</p>
 
 
 
@@ -1384,6 +1494,8 @@
       <script src="../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
         <script src="../../js/progress.js"></script>
+      
+        <script src="../../js/rotulos.js"></script>
       
     
   </body>

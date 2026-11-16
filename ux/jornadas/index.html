@@ -53,6 +53,8 @@
     
       <link rel="stylesheet" href="../../css/custom.css">
     
+      <link rel="stylesheet" href="../../css/avaliacao.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -250,11 +252,11 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../resultado/roteiro/" class="md-tabs__link">
+        <a href="../../resultado/inspecao/" class="md-tabs__link">
           
   
   
-  Avaliação de Usuário
+  Avaliação do Nota Legal
 
         </a>
       </li>
@@ -641,7 +643,7 @@
   <span class="md-ellipsis">
     
   
-    Avaliação de Usuário
+    Avaliação do Nota Legal
   
 
     
@@ -657,11 +659,39 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Avaliação de Usuário
+    Avaliação do Nota Legal
   
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resultado/inspecao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inspeção do Nota Legal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -677,7 +707,7 @@
   <span class="md-ellipsis">
     
   
-    Roteiro de Avaliação
+    Roteiro do Teste com Usuário
   
 
     
@@ -705,7 +735,35 @@
   <span class="md-ellipsis">
     
   
-    Resultados da Avaliação
+    Resultados do Teste com Usuário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resultado/conclusao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recomendações e Conclusão
   
 
     
@@ -1241,7 +1299,7 @@ Contexto: acessa pelo celular, em casa, duas vezes ao ano, geralmente perto do v
 <td>1. Motivação</td>
 <td>Recebe o aviso do IPVA ou lembra do programa.</td>
 <td>“Será que tenho crédito para abater?”</td>
-<td>😐 Neutra</td>
+<td>Neutra</td>
 <td>Esquece como acessar.</td>
 <td>Lembretes por WhatsApp/SMS com link direto.</td>
 </tr>
@@ -1249,7 +1307,7 @@ Contexto: acessa pelo celular, em casa, duas vezes ao ano, geralmente perto do v
 <td>2. Acesso</td>
 <td>Busca “Nota Legal” no Google e escolhe um resultado.</td>
 <td>“Qual é o site certo?”</td>
-<td>😟 Insegura</td>
+<td>Insegura</td>
 <td>Pode cair em site falso ou desatualizado.</td>
 <td>Domínio oficial bem posicionado e selo de segurança visível.</td>
 </tr>
@@ -1257,7 +1315,7 @@ Contexto: acessa pelo celular, em casa, duas vezes ao ano, geralmente perto do v
 <td>3. Login</td>
 <td>Digita CPF e senha, ou tenta recuperar a senha.</td>
 <td>“Qual era a senha? Vou ligar para meu filho.”</td>
-<td>😠 Frustrada</td>
+<td>Frustrada</td>
 <td>Senha esquecida, captcha difícil, recuperação confusa.</td>
 <td>Login simples, opção de mostrar senha, recuperação por passos.</td>
 </tr>
@@ -1265,7 +1323,7 @@ Contexto: acessa pelo celular, em casa, duas vezes ao ano, geralmente perto do v
 <td>4. Consulta do saldo</td>
 <td>Procura quanto tem de crédito.</td>
 <td>“Cadê o meu saldo? O que é ‘crédito tributário’?”</td>
-<td>😕 Confusa</td>
+<td>Confusa</td>
 <td>Termos técnicos, informações espalhadas, letras pequenas.</td>
 <td>Saldo em destaque na primeira tela, em linguagem simples (“Você tem R$ X para usar”).</td>
 </tr>
@@ -1273,7 +1331,7 @@ Contexto: acessa pelo celular, em casa, duas vezes ao ano, geralmente perto do v
 <td>5. Uso do crédito no IPVA</td>
 <td>Procura a opção de abater o IPVA e escolhe o veículo.</td>
 <td>“Estou fazendo certo? E se eu errar?”</td>
-<td>😰 Ansiosa</td>
+<td>Ansiosa</td>
 <td>Menu confuso, medo de erro irreversível.</td>
 <td>Assistente passo a passo, resumo antes de confirmar, botões grandes.</td>
 </tr>
@@ -1281,7 +1339,7 @@ Contexto: acessa pelo celular, em casa, duas vezes ao ano, geralmente perto do v
 <td>6. Confirmação</td>
 <td>Confirma e procura um comprovante.</td>
 <td>“Deu certo? Preciso guardar isso?”</td>
-<td>😊 Aliviada, se tudo estiver claro</td>
+<td>Aliviada, se tudo estiver claro</td>
 <td>Falta de feedback claro.</td>
 <td>Mensagem de sucesso em linguagem simples, comprovante em PDF e envio por WhatsApp.</td>
 </tr>
@@ -1289,7 +1347,7 @@ Contexto: acessa pelo celular, em casa, duas vezes ao ano, geralmente perto do v
 <td>7. Pós-uso</td>
 <td>Conta ao marido ou pede para o filho conferir.</td>
 <td>“Será que o desconto veio no boleto?”</td>
-<td>😐 Dúvida residual</td>
+<td>Dúvida residual</td>
 <td>Não vê onde acompanhar o abatimento.</td>
 <td>Painel de acompanhamento e aviso quando o abatimento for aplicado.</td>
 </tr>
@@ -1316,7 +1374,7 @@ Contexto: acessa pelo celular (modo mobile), com pressa, de forma autônoma.</p>
 <td>1. Motivação</td>
 <td>Lembra que o IPTU vence em breve ou que acumulou notas.</td>
 <td>“Preciso indicar o crédito antes do prazo.”</td>
-<td>😐 Objetivo</td>
+<td>Objetivo</td>
 <td>Falta de notificação sobre prazos.</td>
 <td>Notificações push e e-mail com prazo e saldo.</td>
 </tr>
@@ -1324,7 +1382,7 @@ Contexto: acessa pelo celular (modo mobile), com pressa, de forma autônoma.</p>
 <td>2. Acesso e login</td>
 <td>Abre o site ou app e faz login.</td>
 <td>“Tomara que salve meu login.”</td>
-<td>😊 / 😒</td>
+<td>/</td>
 <td>Pede dados repetidos, sessão expira, captcha.</td>
 <td>Login único (gov.br), biometria, sessão persistente.</td>
 </tr>
@@ -1332,7 +1390,7 @@ Contexto: acessa pelo celular (modo mobile), com pressa, de forma autônoma.</p>
 <td>3. Consulta de pontos</td>
 <td>Verifica saldo e extrato de notas.</td>
 <td>“Quanto tenho e de onde veio?”</td>
-<td>😊 Satisfeito se for rápido</td>
+<td>Satisfeito se for rápido</td>
 <td>Lentidão, tabelas que não se adaptam ao celular.</td>
 <td>Dashboard responsivo, filtros e busca rápida.</td>
 </tr>
@@ -1340,7 +1398,7 @@ Contexto: acessa pelo celular (modo mobile), com pressa, de forma autônoma.</p>
 <td>4. Verificação de estabelecimentos</td>
 <td>Procura se o local onde comprou está cadastrado.</td>
 <td>“Esse mercado aparece? Por que minha nota não entrou?”</td>
-<td>😤 Impaciente</td>
+<td>Impaciente</td>
 <td>Busca limitada, sem filtro por CNPJ ou nome.</td>
 <td>Busca por CNPJ ou nome com resultado imediato e explicação de pendências.</td>
 </tr>
@@ -1348,7 +1406,7 @@ Contexto: acessa pelo celular (modo mobile), com pressa, de forma autônoma.</p>
 <td>5. Indicação de crédito para o IPTU</td>
 <td>Escolhe o imóvel e o valor, e confirma.</td>
 <td>“Já informei o número do imóvel antes, por que pede de novo?”</td>
-<td>😡 Irritado se repetir dados</td>
+<td>Irritado se repetir dados</td>
 <td>Campos repetidos, muitos cliques, formulário que trava.</td>
 <td>Dados salvos e pré-preenchidos, fluxo em até 3 toques.</td>
 </tr>
@@ -1356,7 +1414,7 @@ Contexto: acessa pelo celular (modo mobile), com pressa, de forma autônoma.</p>
 <td>6. Confirmação</td>
 <td>Recebe o comprovante e confere.</td>
 <td>“Beleza, resolvido.”</td>
-<td>😊 Satisfeito</td>
+<td>Satisfeito</td>
 <td>Sem comprovante imediato ou sem registro no histórico.</td>
 <td>Confirmação instantânea, comprovante digital e histórico acessível.</td>
 </tr>
@@ -1364,7 +1422,7 @@ Contexto: acessa pelo celular (modo mobile), com pressa, de forma autônoma.</p>
 <td>7. Pós-uso</td>
 <td>Fecha o app.</td>
 <td>Pode comentar nas redes se houver problema.</td>
-<td>“Podia ser mais rápido.”    😐 / 😊</td>
+<td>“Podia ser mais rápido.”    /</td>
 <td>Nenhum canal rápido de feedback.</td>
 <td>Avaliação de 1 toque e atalhos para a próxima vez.</td>
 </tr>
@@ -1391,7 +1449,7 @@ Contexto: tenta em casa, com ajuda eventual dos netos, e acaba recorrendo ao ate
 <td>1. Motivação</td>
 <td>Quer saber se tem pontos ou crédito.</td>
 <td>“Será que tenho algum dinheiro lá?”</td>
-<td>😐 Curioso</td>
+<td>Curioso</td>
 <td>Não sabe por onde começar.</td>
 <td>Canal de atendimento telefônico ou por voz como alternativa.</td>
 </tr>
@@ -1399,7 +1457,7 @@ Contexto: tenta em casa, com ajuda eventual dos netos, e acaba recorrendo ao ate
 <td>2. Pedido de ajuda</td>
 <td>Chama o neto para abrir o site.</td>
 <td>“Não quero ficar dependendo dos outros.”</td>
-<td>😞 Dependente</td>
+<td>Dependente</td>
 <td>Sem autonomia, depende da disponibilidade da família.</td>
 <td>Interface simples e autoexplicativa.</td>
 </tr>
@@ -1407,7 +1465,7 @@ Contexto: tenta em casa, com ajuda eventual dos netos, e acaba recorrendo ao ate
 <td>3. Acesso ao site</td>
 <td>Tenta ler a página inicial.</td>
 <td>“Não consigo ler essas letras.”</td>
-<td>😣 Frustrado</td>
+<td>Frustrado</td>
 <td>Fonte pequena, baixo contraste, muitas informações.</td>
 <td>Alto contraste, ajuste de fonte, página inicial enxuta.</td>
 </tr>
@@ -1415,7 +1473,7 @@ Contexto: tenta em casa, com ajuda eventual dos netos, e acaba recorrendo ao ate
 <td>4. Login</td>
 <td>Tenta digitar CPF e senha, ou depende do neto.</td>
 <td>“Que senha é essa? Não lembro.”</td>
-<td>😠 Irritado</td>
+<td>Irritado</td>
 <td>Senha complexa, captcha visual inacessível, erros sem explicação.</td>
 <td>Captcha acessível, mensagens claras, login assistido.</td>
 </tr>
@@ -1423,7 +1481,7 @@ Contexto: tenta em casa, com ajuda eventual dos netos, e acaba recorrendo ao ate
 <td>5. Navegação e consulta</td>
 <td>Tenta achar a área de pontos, com leitor de tela ou teclado.</td>
 <td>“Onde está isso? Não acho.”</td>
-<td>😩 Perdido</td>
+<td>Perdido</td>
 <td>Menus inacessíveis por teclado, falta de rótulos e texto alternativo, ordem de foco confusa.</td>
 <td>Conformidade com WCAG/eMAG, navegação por teclado, compatibilidade com leitores de tela.</td>
 </tr>
@@ -1431,7 +1489,7 @@ Contexto: tenta em casa, com ajuda eventual dos netos, e acaba recorrendo ao ate
 <td>6. Desistência</td>
 <td>Desiste e decide ir ao posto de atendimento.</td>
 <td>“Isso não é pra mim. Prefiro falar com uma pessoa.”</td>
-<td>😔 Excluído</td>
+<td>Excluído</td>
 <td>Perda de tempo, deslocamento, sensação de exclusão digital.</td>
 <td>Atendimento telefônico, WhatsApp com áudio, agendamento no posto.</td>
 </tr>
@@ -1439,7 +1497,7 @@ Contexto: tenta em casa, com ajuda eventual dos netos, e acaba recorrendo ao ate
 <td>7. Atendimento presencial</td>
 <td>Vai ao posto e resolve com um atendente.</td>
 <td>“Aqui sim, é fácil.”</td>
-<td>😌 Aliviado</td>
+<td>Aliviado</td>
 <td>Filas e deslocamento.</td>
 <td>Mostrar no posto como acessar sozinho, com treinamento e material impresso.</td>
 </tr>
@@ -1587,6 +1645,8 @@ Prioridades de design: acessibilidade (contraste, fonte ajustável, teclado, lei
       <script src="../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
         <script src="../../js/progress.js"></script>
+      
+        <script src="../../js/rotulos.js"></script>
       
     
   </body>
