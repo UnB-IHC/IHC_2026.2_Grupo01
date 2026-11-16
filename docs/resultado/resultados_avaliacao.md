@@ -20,7 +20,9 @@ Esta página consolida os resultados obtidos na sessão de **teste de usabilidad
 ## Síntese Geral
 
 !!! note "Visão geral da sessão"
-    O teste de usabilidade do site Nota Legal revelou um produto **eficiente e de fácil uso**: a participante concluiu as **5 tarefas sem ajuda**, em **1min58s no total**, e atribuiu ao site um **SUS de 97,5** (nota máxima de 100). As dificuldades observadas foram **pontuais e de baixa gravidade**: a **barra superior que desaparece ao rolar a página**, o **botão de cadastro pouco notado à primeira vista** e a **saída para domínios externos** com estilos diferentes do site principal.
+    O teste de usabilidade do site Nota Legal revelou um produto **eficiente e de fácil uso**: a participante concluiu as **5 tarefas sem ajuda**, em **1min58s no total**, e atribuiu ao site um **SUS de 97,5** (nota máxima de 100). As dificuldades observadas foram **pontuais e de baixa gravidade**: a **barra superior que desaparece ao rolar a página**, o **botão de cadastro pouco notado à primeira vista** e a **saída para domínios externos** com estilos diferentes do site principal. Como o teste teve **uma única participante**, esses números são **indicativos**.
+
+    Este teste complementa a [inspeção do Nota Legal](inspecao.md): a participante não sentiu as barreiras de acessibilidade encontradas na inspeção, e o teste revelou três problemas de navegação que a inspeção não tinha visto.
 
 ---
 
@@ -28,17 +30,17 @@ Esta página consolida os resultados obtidos na sessão de **teste de usabilidad
 
 !!! success "O que o site faz bem"
 
-    ### ✅ Acesso rápido às informações sobre sorteios, benefícios e atendimento
+    ### Acesso rápido às informações sobre sorteios, benefícios e atendimento
     Nas tarefas 3, 4 e 5, a participante foi direto ao caminho esperado: clicou corretamente em **Sorteios**, em **Benefícios** e rolou até o **rodapé** para encontrar o atendimento, sem errar e com tempos de **0:18**, **0:10** e **0:08**. Isso demonstra que a **arquitetura da informação** e os rótulos do menu correspondem às expectativas do usuário.
 
-    ### ✅ Informações atualizadas e bem documentadas
-    Os editais publicados são os mais recentes e o site os documenta de forma coerente. Isso atende à **Heurística 2 — Correspondência com o mundo real** e à **Heurística 10 — Ajuda e documentação** documentadas em [ux.md](../ux/ux.md).
+    ### Informações atualizadas e bem documentadas
+    Os editais publicados são os mais recentes e o site os documenta de forma coerente, o que favorece a **Heurística 2 — Correspondência com o mundo real** ([ux.md](../ux/ux.md)). A participante também achou o atendimento no rodapé em 8 segundos. Na **Heurística 10 — Ajuda e documentação**, porém, o resultado diverge da inspeção, que não encontrou ajuda focada nas tarefas (veja a [tabela de heurísticas](inspecao.md#heuristicas-de-nielsen-inspecao-e-teste)).
 
-    ### ✅ Design minimalista e padronizado
+    ### Design minimalista e padronizado
     Os botões são indicados em **verde** e o texto aparece sobre **fundo branco**, o que facilita o reconhecimento dos elementos interativos e mantém o design limpo e direto.
 
-    ### ✅ Liberdade de navegação
-    Não foram encontrados bloqueios para obter informações no site, o que atende à **Heurística 3 — Controle e liberdade do usuário**.
+    ### Liberdade de navegação
+    Na sessão, não houve bloqueios para obter informações no site. Na **Heurística 3 — Controle e liberdade do usuário**, porém, a inspeção encontrou o carrossel da página inicial sem botão de pausa, o que viola essa heurística.
 
 ---
 
@@ -56,7 +58,7 @@ Esta página consolida os resultados obtidos na sessão de **teste de usabilidad
 
 | Critério | Resultado |
 | :--- | :--- |
-| **Desempenho** | ✅ Sucesso sem ajuda *(com 1 desvio)* |
+| **Desempenho** | Sucesso sem ajuda *(com 1 desvio)* |
 | **Tempo gasto / referência** | 0:47 / 1:00 |
 | **Nº de erros** | 1 |
 | **Heurística relacionada** | H4 — Consistência e padrões |
@@ -79,13 +81,13 @@ Esta página consolida os resultados obtidos na sessão de **teste de usabilidad
 
 | Critério | Resultado |
 | :--- | :--- |
-| **Desempenho** | ✅ Sucesso sem ajuda *(com 1 desvio)* |
+| **Desempenho** | Sucesso sem ajuda *(com 1 desvio)* |
 | **Tempo gasto / referência** | 0:35 / 0:05 |
 | **Nº de erros** | 1 |
 | **Heurística relacionada** | H6 — Reconhecimento em vez de memorização |
 
 !!! abstract "Evidências da sessão"
-    A participante **não encontrou o botão grande de cadastro à primeira vista**, o que gerou um erro e um tempo muito acima do tempo de referência (7 vezes maior). Essa foi a tarefa com maior diferença em relação ao desempenho de quem conhece o site.
+    A participante **não encontrou o botão grande de cadastro à primeira vista**, o que gerou um erro e um tempo bem acima do tempo de referência do ensaio.
 
     Fala registrada:
 
@@ -101,7 +103,7 @@ Esta página consolida os resultados obtidos na sessão de **teste de usabilidad
 
 | Critério | Resultado |
 | :--- | :--- |
-| **Desempenho** | ✅ Sucesso sem ajuda |
+| **Desempenho** | Sucesso sem ajuda |
 | **Tempo gasto / referência** | 0:18 / 0:15 |
 | **Nº de erros** | 0 |
 | **Heurísticas violadas** | Nenhuma |
@@ -119,8 +121,8 @@ Esta página consolida os resultados obtidos na sessão de **teste de usabilidad
 
 | Critério | Resultado |
 | :--- | :--- |
-| **Desempenho** | ✅ Sucesso sem ajuda |
-| **Tempo gasto / referência** | 0:10 / 4:30 |
+| **Desempenho** | Sucesso sem ajuda |
+| **Tempo gasto / referência** | 0:10 / 1:00 |
 | **Nº de erros** | 0 |
 | **Heurísticas violadas** | Nenhuma |
 
@@ -133,7 +135,7 @@ Esta página consolida os resultados obtidos na sessão de **teste de usabilidad
 
 | Critério | Resultado |
 | :--- | :--- |
-| **Desempenho** | ✅ Sucesso sem ajuda |
+| **Desempenho** | Sucesso sem ajuda |
 | **Tempo gasto / referência** | 0:08 / 0:50 |
 | **Nº de erros** | 0 |
 | **Heurísticas violadas** | Nenhuma |
@@ -147,8 +149,8 @@ Esta página consolida os resultados obtidos na sessão de **teste de usabilidad
 
 | Critério | Resultado |
 | :--- | :--- |
-| **Desempenho** | ⚠️ Parcial |
-| **Heurística violada** | H5 — Prevenção de erros |
+| **Desempenho** | Parcial |
+| **Heurística relacionada** | H5 — Prevenção de erros *(ressalva do teste)* |
 
 !!! abstract "Evidências da sessão"
     Durante a navegação, a **barra superior desaparece ao rolar a página para baixo**, e isso fez com que a participante **se perdesse** ao tentar voltar a outras áreas do site.
@@ -163,31 +165,55 @@ Esta página consolida os resultados obtidos na sessão de **teste de usabilidad
 
 | Tarefa | Resultado | Tempo gasto | Tempo de referência | Fortaleza | Fraqueza Principal |
 | :--- | :---: | :---: | :---: | :--- | :--- |
-| 1 — Usar os créditos | ✅ Sucesso (1 desvio) | 0:47 | 1:00 | Informação encontrada abaixo do tempo de referência | Saída para site externo com estilo diferente |
-| 2 — Iniciar o cadastro | ✅ Sucesso (1 desvio) | 0:35 | 0:05 | Botão grande e verde | Botão de cadastro não percebido à primeira vista |
-| 3 — Próximo sorteio | ✅ Sucesso | 0:18 | 0:15 | Menu "Sorteios" claro | — |
-| 4 — Receber em dinheiro | ✅ Sucesso | 0:10 | 4:30 | Menu "Benefícios" claro | — |
-| 5 — Pedir ajuda | ✅ Sucesso | 0:08 | 0:50 | Atendimento no rodapé | — |
-| Transversal — Navegação | ⚠️ Parcial | — | — | — | Barra superior some ao rolar |
+| 1 — Usar os créditos | Sucesso (1 desvio) | 0:47 | 1:00 | Informação encontrada abaixo do tempo de referência | Saída para site externo com estilo diferente |
+| 2 — Iniciar o cadastro | Sucesso (1 desvio) | 0:35 | 0:05 | Botão grande e verde | Botão de cadastro não percebido à primeira vista |
+| 3 — Próximo sorteio | Sucesso | 0:18 | 0:15 | Menu "Sorteios" claro | — |
+| 4 — Receber em dinheiro | Sucesso | 0:10 | 1:00 | Menu "Benefícios" claro | — |
+| 5 — Pedir ajuda | Sucesso | 0:08 | 0:50 | Atendimento no rodapé | — |
+| Transversal — Navegação | Parcial | — | — | — | Barra superior some ao rolar |
+
+<div class="destaques" markdown>
+<div markdown>
+
+100%
+
+Taxa de sucesso: 5 de 5 tarefas com sucesso sem ajuda
+
+</div>
+<div markdown>
+
+2 erros
+
+Nas tarefas 1 e 2, sem impedir a conclusão
+
+</div>
+<div markdown>
+
+3 de 5
+
+Tarefas sem nenhum erro ou desvio
+
+</div>
+</div>
 
 ---
 
-## Avaliação por Heurística de Nielsen
+## Heurísticas de Nielsen no teste
 
-Conforme o roteiro de avaliação, as heurísticas de Nielsen foram aplicadas à experiência observada na sessão:
+O que a sessão mostrou para cada heurística. A última coluna traz o **resultado combinado com a inspeção**, explicado na [tabela de heurísticas da inspeção](inspecao.md#heuristicas-de-nielsen-inspecao-e-teste).
 
-| Heurística | Status | Evidências encontradas |
-| :--- | :---: | :--- |
-| H1 — Status visível | — | Como o site é estático, não há "status" para analisar |
-| H2 — Correspondência com o mundo real | ✅ OK | Os editais publicados são os mais recentes |
-| H3 — Controle e liberdade | ✅ OK | Não há bloqueios ao obter informações no site |
-| H4 — Padronização | ⚠️ Parcial | Site padronizado, mas leva a domínios externos com estilos diferentes |
-| H5 — Prevenção de erros | ⚠️ Parcial | A barra superior some ao rolar para baixo, e isso fez a participante se perder |
-| H6 — Reconhecimento em vez de memorização | ✅ OK | Botões indicados em verde e texto sobre fundo branco *(ressalva: botão de cadastro não percebido na tarefa 2)* |
-| H7 — Flexibilidade e eficiência | ✅ OK | O site é eficiente em prover as informações requeridas |
-| H8 — Design estético e minimalista | ✅ OK | Design bastante minimalista, embora o ícone pudesse ser melhor |
-| H9 — Ajuda na recuperação de erros | — | Não houve ajuda desse tipo, mas os erros não foram graves |
-| H10 — Documentação e ajuda | ✅ OK | O site documenta bem os seus editais e apresenta a informação de forma coerente |
+| Heurística | Observado no teste | Resultado combinado |
+| :--- | :--- | :--- |
+| H1 — Visibilidade do status | Não avaliada na sessão | Parcial |
+| H2 — Correspondência com o mundo real | Editais atualizados e linguagem clara | Parcial |
+| H3 — Controle e liberdade | Navegação sem bloqueios | Violada (carrossel sem pausa, na inspeção) |
+| H4 — Consistência e padrões | As perguntas frequentes levam a outro domínio, com outro visual | Ressalva do teste |
+| H5 — Prevenção de erros | A barra superior some ao rolar, e a participante se perdeu | Ressalva do teste |
+| H6 — Reconhecimento em vez de memorização | O botão de cadastro não foi percebido na tarefa 2 | Ressalva do teste |
+| H7 — Flexibilidade e eficiência | Informação encontrada rapidamente | Violada (Alto Contraste sem teclado, na inspeção) |
+| H8 — Design estético e minimalista | Visual limpo | Atendida |
+| H9 — Ajudar a corrigir erros | Nenhum erro exigiu ajuda | Violada (“data inválida” sem formato, na inspeção) |
+| H10 — Ajuda e documentação | Atendimento achado no rodapé em 8 s | Divergente |
 
 ---
 
@@ -214,7 +240,10 @@ Conforme o roteiro de avaliação, as heurísticas de Nielsen foram aplicadas à
 `3 + 4 + 4 + 4 + 4 + 4 + 4 + 4 + 4 + 4 = 39` → `39 × 2,5 = 97,5`
 
 !!! success "Pontuação SUS: 97,5 / 100"
-    Pontuação **muito acima da média de referência (68)**, na faixa de **usabilidade excelente**. Isso confirma a percepção geral da sessão: o site é fácil de usar e a participante se sentiu confiante ao navegar.
+    Pontuação **muito acima da média de referência (68)**. A participante concordou totalmente que o site é fácil de usar e que se sentiu confiante; a nota mais baixa (4 de 5) foi em "gostaria de usar com frequência".
+
+!!! warning "Como ler este número"
+    Com **uma única participante**, o resultado é **indicativo**, não estatístico. O SUS vai de 0 a 100 e **não é uma porcentagem**.
 
 ---
 
@@ -225,27 +254,29 @@ Conforme o roteiro de avaliação, as heurísticas de Nielsen foram aplicadas à
 
 | Prioridade | Ação | Referência |
 | :---: | :--- | :--- |
-| 🟡 Média | **Manter a barra superior fixa** ao rolar a página (ou oferecer botão "voltar ao topo") | H5 — Prevenção de erros |
-| 🟡 Média | **Dar mais destaque ao botão de cadastro** ("Quero me cadastrar!") na página inicial | H6 — Reconhecimento em vez de memorização |
-| 🟡 Média | **Sinalizar links que levam a domínios externos** (aviso ou ícone) e aproximar o estilo dessas páginas do site principal | H4 — Padronização |
-| 🟢 Baixa | **Tornar a informação sobre os impostos que aceitam abatimento (IPTU e IPVA) mais evidente** na página inicial e em "Perguntas frequentes" | H6 / H10 |
-| 🟢 Baixa | **Revisar o ícone do site** | H8 — Design estético e minimalista |
+| Média | **Manter a barra superior fixa** ao rolar a página (ou oferecer botão "voltar ao topo") | H5 — Prevenção de erros |
+| Média | **Dar mais destaque ao botão de cadastro** ("Quero me cadastrar!") na página inicial | H6 — Reconhecimento em vez de memorização |
+| Média | **Sinalizar links que levam a domínios externos** (aviso ou ícone) e aproximar o estilo dessas páginas do site principal | H4 — Padronização |
+| Baixa | **Tornar a informação sobre os impostos que aceitam abatimento (IPTU e IPVA) mais evidente** na página inicial e em "Perguntas frequentes" | H6 / H10 |
+| Baixa | **Revisar o ícone do site** | H8 — Design estético e minimalista |
+
+A lista final, que junta este teste e a inspeção em cinco correções priorizadas, está em [Recomendações e conclusão](conclusao.md).
 
 ---
 
-## Resultados da Entrevista Pós-Teste
+## Entrevista Pós-Teste
 
 !!! info "Sobre esta seção"
-    Esta seção apresenta os resultados da entrevista semiestruturada conduzida ao final da sessão, conforme previsto no [Roteiro de Avaliação](roteiro.md). As respostas da participante às seis perguntas da entrevista final **não constam nos registros desta sessão** e devem ser incluídas aqui, no mesmo formato utilizado nas demais avaliações (citação da participante e notas de 1 a 5 por dimensão).
+    A entrevista final foi prevista no [Roteiro de Avaliação](roteiro.md). As respostas da participante **serão registradas aqui assim que forem transcritas da gravação da sessão**. Até lá, a análise desta página se apoia nas tarefas, nas falas registradas durante o *Think-Aloud* e no SUS.
 
 | Pergunta | Resposta da participante |
 | :--- | :--- |
-| 1. Como foi sua experiência geral ao usar o site? | *(preencher)* |
-| 2. Quais foram as principais dificuldades que você encontrou? | *(preencher)* |
-| 3. Em que momento você se sentiu perdido ou em dúvida? O que aconteceu? | *(preencher)* |
-| 4. Alguma informação ou termo do site gerou confusão? | *(preencher)* |
-| 5. O que você mudaria primeiro para melhorar o site? | *(preencher)* |
-| 6. Que outras melhorias você sugere? | *(preencher)* |
+| 1. Como foi sua experiência geral ao usar o site? | *A registrar* |
+| 2. Quais foram as principais dificuldades que você encontrou? | *A registrar* |
+| 3. Em que momento você se sentiu perdido ou em dúvida? O que aconteceu? | *A registrar* |
+| 4. Alguma informação ou termo do site gerou confusão? | *A registrar* |
+| 5. O que você mudaria primeiro para melhorar o site? | *A registrar* |
+| 6. Que outras melhorias você sugere? | *A registrar* |
 
 ---
 

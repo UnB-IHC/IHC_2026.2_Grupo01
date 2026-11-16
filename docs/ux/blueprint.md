@@ -26,3 +26,18 @@ Muitas vezes se acrescenta uma camada de tempo/etapas no topo, alinhada à jorna
 * apontar gargalos, redundâncias e pontos de falha;
 * alinhar equipes (design, TI, atendimento, gestão) sobre quem é responsável por cada parte;
 * planejar melhorias que resolvam a causa e não só o sintoma.
+
+## Blueprint do Nota Legal
+
+Aplicamos o blueprint a três jornadas que a [inspeção](../resultado/inspecao.md) e o [teste com usuário](../resultado/resultados_avaliacao.md) cobriram. A linha de **backstage** traz hipóteses da equipe, porque a avaliação só enxerga a parte pública do portal.
+
+| Camada | Cadastrar-se | Consultar sorteios | Corrigir um erro de preenchimento |
+| :--- | :--- | :--- | :--- |
+| **Ação do usuário** | Procura o cadastro e preenche o formulário | Acessa a página de Sorteios pelo menu | Digita uma data em formato errado |
+| **Frontstage (o que vê)** | Botão "Quero me cadastrar!" e etapas indicadas ("Passo 2 de 5") | Banners com texto alternativo "Banner 1" e links como "página 1194" | Mensagem "data inválida", sem o formato esperado |
+| *Linha de visibilidade* | | | |
+| **Backstage (hipótese)** | Validação do CPF e dos dados informados | Páginas publicadas no portal e identificadas por número | Validação do campo sem sugestão de correção |
+| **Evidência** | Teste: o botão de cadastro não foi percebido de primeira (tarefa 2) | Inspeção: WCAG 1.1.1 e 2.4.4 | Inspeção: WCAG 3.3.3 e Heurística 9 |
+| **Oportunidade** | Destacar o botão de cadastro e indicar a etapa em todo o site | Texto alternativo descritivo e links com o nome do destino | Sugerir o formato: "Use DD/MM/AAAA" |
+
+As oportunidades acima entram nas [recomendações priorizadas](../resultado/conclusao.md) do trabalho.

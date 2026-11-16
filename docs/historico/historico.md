@@ -6,6 +6,57 @@ O versionamento segue o formato `MAJOR.MINOR.PATCH` e as datas usam o padrão `A
 
 ## Versões
 
+### [1.8.0] – 2026-11-16 — Fundamentos de UX aplicados ao Nota Legal e revisão de acessibilidade do próprio site
+
+Atualização *minor* que liga as páginas de fundamentos de UX aos resultados da avaliação e revisa a acessibilidade do próprio guia.
+
+#### Adicionado
+- **Blueprint do Nota Legal** (`ux/blueprint.md`): três jornadas (cadastrar-se, consultar sorteios e corrigir um erro), com evidências da inspeção e do teste.
+- **Canvas de proposta de valor do Nota Legal** (`ux/canvas.md`): perfil do usuário, mapa de valor e análise de encaixe.
+- **Personas e avaliação** (`ux/personas.md`): barreiras encontradas e correções que mais ajudam cada persona.
+- **Ferramentas** (`referencias/referencias.md`): ANDI e uma seção sobre como cada ferramenta foi usada no Nota Legal.
+
+#### Alterado
+- **README**: descrição atualizada do projeto, link para o site, instruções para rodar localmente e tabela da equipe corrigida.
+- **Página inicial**: nomes da equipe padronizados, sem matrícula.
+
+#### Corrigido
+- **Contraste**: cores do realce de código no tema claro e dos links no tema escuro ajustadas para atingir 4,5:1.
+- **Hierarquia de títulos**: os checklists de Conteúdo, Desenvolvimento e Design deixaram de pular do título principal direto para o nível 3.
+- **Título do checklist de Desenvolvimento**: corrigido o erro de digitação.
+- **Arquivos antigos removidos**: cópias do tema em `docs/assets/javascripts` e `docs/assets/stylesheets`, índice de busca desatualizado em `docs/search` e um logo de outro projeto.
+
+---
+
+### [1.7.0] – 2026-11-16 — Inspeção do Nota Legal e alinhamento com a apresentação
+
+Atualização *minor* que traz para o site a avaliação por inspeção do Nota Legal e deixa todas as páginas coerentes com a apresentação final.
+
+#### Adicionado
+- **Inspeção do Nota Legal** (`resultado/inspecao.md`): planejamento DECIDE, resultado dos 28 critérios por área, ferramentas automáticas (WAVE, ANDI e axe DevTools), os três problemas graves com capturas e código de correção, demais não conformidades e a tabela de heurísticas que combina inspeção e teste.
+- **Recomendações e Conclusão** (`resultado/conclusao.md`): comparação entre inspeção e teste, cinco correções priorizadas e conclusões do trabalho.
+- **Página inicial**: atalhos para o guia, a inspeção, o teste e as recomendações.
+
+#### Alterado
+- **Resultados do teste com usuário**: heurísticas alinhadas à tabela combinada, taxa de sucesso explícita, SUS apresentado como resultado indicativo e tempo de referência da tarefa 4 alinhado ao roteiro (1:00).
+- **Entrevista pós-teste**: os campos "(preencher)" passaram a "A registrar", com um aviso de que as respostas serão incluídas após a transcrição da gravação.
+- **Mapeamento de Experiências**: achados de acessibilidade alinhados aos resultados da inspeção.
+- **Navegação**: a seção "Avaliação de Usuário" passou a se chamar "Avaliação do Nota Legal".
+
+#### Corrigido
+- **Página inicial**: HTML do bloco da equipe (div duplicada e link não fechado).
+
+---
+
+### [1.6.0] – 2026-11-11 — Teste com usuário
+
+Atualização *minor* com a aplicação do teste de usabilidade no site Nota Legal.
+
+#### Adicionado
+- **Resultados da Avaliação** (`resultado/resultados_avaliacao.md`): desempenho por tarefa, registro do *Think-Aloud*, questionário SUS (97,5) e plano de ação.
+
+---
+
 ### [1.5.0] – 2026-11-09 — Fundamentos de UX e Avaliação de Usabilidade
 
 Atualização *minor* que amplia o projeto além do guia de acessibilidade, incluindo a base teórica de UX e o planejamento da avaliação com usuários do site Nota Legal.

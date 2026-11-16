@@ -52,3 +52,18 @@ A seguir, apresentamos as personas primárias e secundárias definidas para guia
 | Maria das Graças | Primária | Usuária de meia-idade, familiaridade média | Clareza, instruções, legibilidade |
 | Lucas Ferreira | Primária | Jovem adulto, alta familiaridade | Eficiência, responsividade, atalhos |
 | Seu Joaquim | Secundária | Idoso, baixa familiaridade | Acessibilidade, teclado, contraste |
+
+
+---
+
+## O que a avaliação mostra para cada persona
+
+A [inspeção](../resultado/inspecao.md) e o [teste com usuário](../resultado/resultados_avaliacao.md) atingem cada persona de um jeito diferente.
+
+| Persona | Barreiras encontradas | Correções que mais ajudam |
+| :--- | :--- | :--- |
+| **Maria das Graças** | No celular, imagens pequenas e tabelas apertadas; com zoom de 200%, o menu superior perde conteúdo; o erro "data inválida" não diz como corrigir. | Mensagens de erro que orientam ("Use DD/MM/AAAA"); layout que se ajusta ao celular e ao zoom. |
+| **Lucas Ferreira** | A barra superior some ao rolar; links como "página 1194" atrapalham quem quer ir direto ao ponto; as perguntas frequentes levam a outro domínio. | Barra superior fixa e links com o nome do destino. |
+| **Seu Joaquim** | Os banners dizem só "Banner 1" ao leitor de tela; o foco do teclado quase não aparece; o Alto Contraste não funciona pelo teclado; o carrossel não para. | As três correções graves: imagens acessíveis, foco visível com Alto Contraste no teclado e carrossel com pausa. |
+
+O Seu Joaquim, a persona com limitações de acessibilidade, é quem enfrenta as barreiras mais graves. Por isso o próximo passo do trabalho é testar com pessoas que usam leitor de tela ou só o teclado.

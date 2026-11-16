@@ -17,6 +17,13 @@ cor. Apoia o checklist de **Conteúdo** na conferência de textos alternativos e
 imagens e na hierarquia de títulos. Apoia o checklist de **Desenvolvimento** na
 identificação de regiões, listas, links e rótulos de formulário.
 
+
+## [ANDI — Accessible Name & Description Inspector](https://www.ssa.gov/accessibility/andi/help/install.html)
+
+Ferramenta gratuita, usada direto no navegador, que mostra como as tecnologias assistivas leem cada elemento: o nome acessível, a descrição, a ordem de tabulação e quais elementos recebem foco.
+
+Apoia o checklist de **Desenvolvimento** na verificação da navegação por teclado, da ordem de foco e dos nomes de botões, links e campos. Apoia o checklist de **Conteúdo** ao mostrar o texto alternativo que chega ao leitor de tela.
+
 ## [axe-core — biblioteca de testes automatizados de acessibilidade](https://github.com/dequelabs/axe-core)
 
 Framework de auditoria automatizada amplamente usado na indústria. Detecta problemas
@@ -68,3 +75,18 @@ Apoiam o checklist de **Desenvolvimento** na verificação de foco, navegação 
 leitura de tabelas e formulários, anúncio de mudanças automáticas na página e ordem
 lógica de leitura das regiões. Apoiam o checklist de **Conteúdo** ao confirmar que
 textos alternativos, títulos e rótulos fazem sentido quando lidos em sequência.
+
+---
+
+## Como usamos as ferramentas no Nota Legal
+
+Na [inspeção do Nota Legal](../resultado/inspecao.md), combinamos três ferramentas automáticas com testes manuais.
+
+| Ferramenta | O que mostrou no Nota Legal |
+| :--- | :--- |
+| **WAVE** | Pontuação AIM de 7,9 em 10: 1 erro (atualização automática da página), 0 erros de contraste e 2 alertas. |
+| **ANDI** | 36 elementos alcançáveis pelo Tab, sem o botão de Alto Contraste entre eles. |
+| **axe DevTools** (axe-core 4.10.3) | 8 problemas moderados e nenhum crítico: página sem h1, salto para h4, dois landmarks main e menus sem nome próprio. |
+| **Testes manuais** | Navegação com Tab e Shift+Tab, zoom de 200% e uso no celular. Foi assim que apareceram o foco quase invisível, o carrossel sem pausa e o menu cortado no zoom. |
+
+As ferramentas automáticas não detectaram os problemas mais graves (texto alternativo genérico, foco quase invisível e carrossel sem pausa). Eles só apareceram na inspeção manual, por isso recomendamos sempre combinar os dois.

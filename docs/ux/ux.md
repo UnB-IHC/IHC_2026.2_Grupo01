@@ -66,3 +66,7 @@ Heurísticas avaliam usabilidade para todos. A acessibilidade garante que pessoa
 
 - **WCAG** (W3C): diretrizes baseadas em 4 princípios: Perceptível, Operável, Compreensível e Robusto. Níveis A, AA e AAA.
 - **NBR 17225**: norma brasileira de acessibilidade web, alinhada ao WCAG.
+
+## No Nota Legal
+
+As heurísticas acima foram aplicadas ao site Nota Legal DF, combinando a inspeção da equipe e o teste com usuário: **3 violadas (H3, H7 e H9), 3 com ressalvas do teste (H4, H5 e H6), 2 parciais (H1 e H2), 1 atendida (H8) e 1 divergente (H10)**. A tabela completa, com as evidências de cada uma, está na [Inspeção do Nota Legal](../resultado/inspecao.md#heuristicas-de-nielsen-inspecao-e-teste).

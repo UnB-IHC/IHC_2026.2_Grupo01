@@ -1,6 +1,6 @@
 # Checklist de Conteúdo
 
-### Estrutura e Clareza
+## Estrutura e Clareza
 
 - [ ] **Usar linguagem simples, clara e direta**, evitando jargões ou frases longas.   `WCAG 3.1.5 (AAA)` [(68)](https://www.w3.org/WAI/WCAG22/Understanding/reading-level)
 - [ ] **Organizar o conteúdo com títulos, subtítulos e parágrafos curtos**, para facilitar a navegação e a leitura.   `WCAG 2.4.6 (AA)` [(69)](https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels)
@@ -17,7 +17,7 @@
 - [ ] **Limitar a largura dos blocos de texto** a cerca de 80 caracteres por linha, facilitando a leitura.   `NBR 5.12.6 / Guia-UK` [(124)](https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation)
 - [ ] **Evitar frases excessivamente longas, ambiguidades e construções complexas**, priorizando informações objetivas, diretas e organizadas de maneira lógica. `Boa prática de usabilidade e acessibilidade`.
 
-### Alternativas para Mídia
+## Alternativas para Mídia
 
 - [ ] **Incluir textos alternativos (`alt`) adequados para todas as imagens informativas**, explicando sua função e contexto.   `WCAG 1.1.1 (A)` [(77)](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content)
 - [ ] **Usar `alt=""` (texto alternativo vazio)** em imagens puramente decorativas que não transmitem informação.   `WCAG 1.1.1 (A)` [(78)](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content)
@@ -33,10 +33,10 @@
 - [ ] **Disponibilizar transcrição textual para conteúdos exclusivamente em áudio**, como podcasts e gravações, permitindo que pessoas surdas ou com deficiência auditiva tenham acesso às informações transmitidas. `WCAG 1.2.1 (A)` [(128)](https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded)
 - [ ] **Disponibilizar janela de interpretação em Libras** para vídeos e áudios, posicionada e contrastada de forma legível.   `NBR 5.14.6 / WCAG 1.2.6 (AAA) / Guia-UK` [(127)](https://www.w3.org/WAI/WCAG22/Understanding/sign-language-prerecorded)
 
-### Linguagem Inclusiva e Respeitosa
+## Linguagem Inclusiva e Respeitosa
 - [ ] **Utilizar terminologia respeitosa e inclusiva ao se referir a pessoas com deficiência**, priorizando expressões como "pessoa com deficiência" e evitando termos capacitistas, pejorativos ou ultrapassados. `(Boa prática de acessibilidade e inclusão)` 
 
-### Links e Botões
+## Links e Botões
 
 - [ ] **Escrever links com textos significativos**, evitando termos genéricos como “clique aqui” ou “saiba mais”.   `WCAG 2.4.4 (A)` [(85)](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context)
 - [ ] **Garantir Propósito do Link Claro**, onde o texto do link descreve claramente o seu destino (sendo simples e, se curto, explicado pelo contexto).   `5.7.4/2.4.4 (A) ITRAC` [(86)](#)
@@ -45,7 +45,7 @@
 - [ ] **Garantir Propósito do Botão Claro**, usando palavras simples e, se necessário, uma explicação para descrever o que ele faz.   `5.8.3/2.4.6 (AA) ITRAC` [(89)](#)
 - [ ] **Garantir que ícones tenham rótulos acessíveis**, visíveis ou via `aria-label`.   `WCAG 4.1.2 (A)` [(90)](https://www.w3.org/WAI/WCAG22/Understanding/name-role-value)
 
-### Idioma, Listas e Metadados
+## Idioma, Listas e Metadados
 
 - [ ] **Identificar corretamente a linguagem do documento** usando `lang="pt-BR"` na tag HTML.   `WCAG 3.1.1 (A)` [(91)](https://www.w3.org/WAI/WCAG22/Understanding/language-of-page)
 - [ ] **Sinalizar mudança de idioma dentro do texto** usando o atributo `lang` (ex.: `<span lang="en">`).   `WCAG 3.1.2 (AA)` [(92)](https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts)
@@ -54,7 +54,7 @@
 - [ ] **Fornecer Documentação Clara** com passos claros e concretos, apresentada no contexto da tarefa que o usuário está realizando (se possível).   `H10` [(95)](#)
 - [ ] **Garantir que mensagens de erro sejam claras, específicas e orientem a solução**.   `WCAG 3.3.1 (A)` [(96)](https://www.w3.org/WAI/WCAG22/Understanding/error-identification)
 
-### Recomendações de Texto
+## Recomendações de Texto
 
 - [ ] **Usar CamelCase em Hashtags** (ex: `#AcessibilidadeDigital`) para facilitar a leitura por leitores de tela.   `Guia UK` [(97)](#)
 - [ ] **Manter o Uso de Emojis moderado**, garantindo que não tornem a leitura cansativa ou incompreensível para tecnologias assistivas.   `Guia UK` [(98)](#)
