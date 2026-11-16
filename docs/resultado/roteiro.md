@@ -93,13 +93,13 @@ Objetivo: **caracterizar o participante**.
 ### 3.5 Papel do moderador durante as tarefas
 
 !!! warning "Regras"
-    ✔ Não ensinar.
+    - Não ensinar.
 
-    ✔ Não apontar erros.
+    - Não apontar erros.
 
-    ✔ Não indicar onde clicar.
+    - Não indicar onde clicar.
 
-    ✔ Não responder perguntas relacionadas à tarefa.
+    - Não responder perguntas relacionadas à tarefa.
 
 Se o participante parar de falar, use **apenas estímulos neutros**:
 

@@ -12,9 +12,11 @@ nav:
       - Design: guia_acessibilidade/guia_design.md
       - Conteúdo: guia_acessibilidade/guia_conteudo.md
       - Resultado Final: resultado/resultado.md
-  - Avaliação de Usuário:
-      - Roteiro de Avaliação: resultado/roteiro.md
-      - Resultados da Avaliação: resultado/resultados_avaliacao.md
+  - Avaliação do Nota Legal:
+      - Inspeção do Nota Legal: resultado/inspecao.md
+      - Roteiro do Teste com Usuário: resultado/roteiro.md
+      - Resultados do Teste com Usuário: resultado/resultados_avaliacao.md
+      - Recomendações e Conclusão: resultado/conclusao.md
   - Fundamentos de UX:
       - Avaliação de UX e Heurísticas de Nielsen: ux/ux.md
       - Personas: ux/personas.md
@@ -58,16 +60,24 @@ theme:
 
 markdown_extensions:
   - attr_list
+  - md_in_html
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-  - pymdownx.tabbed
-  - pymdownx.emoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.tasklist:
       clickable_checkbox: true
 
 extra_css:
   - css/custom.css
+  - css/avaliacao.css
 
 extra_javascript:
   - js/progress.js

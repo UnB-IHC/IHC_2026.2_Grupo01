@@ -17,8 +17,10 @@ Este documento apresenta o Mapeamento de Experiências (Experience Mapping) do p
 ## 3. Principais Achados de IHC e Acessibilidade
 * **Usabilidade e Carga Cognitiva:** Gargalos na navegação primária afetam usuários com baixo letramento digital durante os períodos de indicação de créditos.
 * **Acessibilidade Digital (NBR 17225 / WCAG 2.2):**
-  * **Contraste de Cores:** Elementos do menu e botões secundários exigem ajuste nas razões de contraste para atender à especificação AA/AAA.
-  * **Leitores de Tela:** Ausência de marcas estruturais (`ARIA landmarks`) adequadas nos formulários de busca e tabelas de extrato.
+  * **Foco e contraste:** o WAVE não detectou erros de contraste de texto, mas o indicador de foco do teclado tem cor próxima à do fundo (WCAG 2.4.7).
+  * **Leitores de Tela:** o axe apontou landmarks duplicados ou sem nome próprio, e os banners têm texto alternativo genérico (“Banner 1”).
+
+Os detalhes e as evidências estão na [Inspeção do Nota Legal](../resultado/inspecao.md).
 
 ---
 
